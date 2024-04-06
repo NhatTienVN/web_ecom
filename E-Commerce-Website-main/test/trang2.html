@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="import" href="./header.html">
+</head>
+<body>
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+
+        // Grab DOM from header.html's document.
+        var el = content.querySelector('header');
+
+        document.body.appendChild(el.cloneNode(true));
+    </script>
+</body>
+</html>
