@@ -199,10 +199,10 @@
 .mem__cards {
   padding: 5rem;
   width: 100%;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 2.5rem;
 }
 
 .mem__card--1 .mem__card__img, .mem__card--1 .mem__card__img--hover {
@@ -211,6 +211,18 @@
 
 .mem__card--2 .mem__card__img, .mem__card--2 .mem__card__img--hover {
   background-image: url(../image/members/da.jpg);
+}
+.mem__card--3 .mem__card__img, .mem__card--3 .mem__card__img--hover {
+  background-image: url(../image/members/z5288368522924_698f1d9561d32c434639aac9890b91cc.jpg);
+}
+.mem__card--4 .mem__card__img, .mem__card--4 .mem__card__img--hover {
+  background-image: url(../image/members/z5300365906650_82e6a5a83be2fb34e9e8ea7e80caa6e2.jpg);
+}
+.mem__card--5 .mem__card__img, .mem__card--5 .mem__card__img--hover {
+  background-image: url(../image/members/z5323002866176_ca76808113a4e4d62310ab2b48b97a49.jpg)
+}
+.mem__card--6 .mem__card__img, .mem__card--6 .mem__card__img--hover {
+  background-image: url(../image/members/z5300708262875_653f4ba36fee560b5b20c422f07d51dc.jpg)
 }
 
 .mem__card__like {
@@ -259,10 +271,8 @@
 }
 
 .mem__card {
-  margin-right: 25px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
   background-color: #fff;
-  width: 33.3%;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
@@ -320,4 +330,44 @@
 
 .mem__card:hover .mem__card__info-hover {
   opacity: 1;
+}
+
+.mem__heading {
+  font-size: 3rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(var(--colo-primary), var(--colo-primary));
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  transition: background-size .7s, background-position .5s ease-in-out;
+  color: var(--colo-white-1);
+  line-height: 1.8;
+  width: 100%;
+  text-align: center;
+}
+.mem__header {
+  position: relative;
+  height: 100px;
+}
+.mem__heading:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 1070px) {
+  .mem__cards{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .mem__cards{
+  grid-template-columns: repeat(1, 1fr);
+  }
 }
