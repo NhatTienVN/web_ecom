@@ -1,0 +1,38 @@
+.blog_leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .blog_rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .blog_fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .blog_card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .blog_row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 800px) {
+    .blog_leftcolumn, .blogrightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }

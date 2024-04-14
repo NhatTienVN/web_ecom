@@ -97,7 +97,7 @@ button {
 .top_nav {
   width: 100%;
   height: 4rem;
-  background-color: var(--colo-dark-1);
+  background-color: var(--colo-primary);
 }
 .top_nav_container {
   width: 100%;
@@ -151,6 +151,7 @@ button {
 }
 .nav_link {
   padding: 0.6rem;
+  color: var(--colo-dark-1);
 }
 .nav_form {
   padding: 0.8rem;
@@ -183,8 +184,12 @@ button {
   margin-top: auto;
   margin-bottom: auto;
   transform: translateY(2PX);
-}
+  color: var(--colo-dark-1);
 
+}
+.nav_acc{
+  margin: 0 1rem;
+}
 /* header */
 .header_container {
   width: 100%;
@@ -193,15 +198,26 @@ button {
   margin-top: 4rem;
 }
 .header_filter {
-  width: 25%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-right: 1rem;
 }
 .header_filter_link {
   color: var(--colo-dark-1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
+.header_filter_link:hover {
+  background-color: var(--colo-primary);
+  color: var(--colo-white-1);
+  padding-left: 1rem;
+  transition: all 0.3s ease;
 
+}
 /* section */
 .section {
   margin-top: 10rem;
@@ -241,7 +257,7 @@ button {
 }
 
 .swiper1 {
-  width: 75%;
+  width: 80%;
   height: 100%;
 }
 
@@ -281,8 +297,9 @@ button {
 }
 
 .card_image{
-  width: 270px;
+  width: 27rem;
   position: relative;
+  height: 25rem;
 }
 .card_img1 {
   opacity: 1;
@@ -326,21 +343,25 @@ button {
 .card_title {
   font-size: 1.6rem;
   margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .card_price{
   display: flex;
   align-items: center;
-  justify-content: start;
-  gap: 2rem;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 .card_price_new {
   color: var(--colo-primary);
-  margin-bottom: 1rem;
 }
 .card_price_old {
   color: var(--colo-dark-2);
   text-decoration: line-through;
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 .card_ratings {
   display: flex;
@@ -508,7 +529,7 @@ button {
   bottom: 2rem;
   left: 2rem;
   z-index: 9;
-  width: 70%;
+  width: 80%;
 }
 .gallery_item_title {
   color: var(--colo-white-1);
@@ -570,23 +591,30 @@ button {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 3rem;
+  grid-gap: 2rem;
   padding: 5rem 0rem;
   color: var(--colo-white-1);
 }
 .footer_logo {
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: var(--colo-white-1);
   font-weight: 700;
 }
 .footer_p {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 200;
 }
 .footer_item_titl {
   margin-bottom: 1.2rem;
+  font-size: 2rem;
 }
 .footer_list_item {
   margin: 0.5rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.footer_list_item a {
+  color: var(--colo-white-1);
 }
 .footer_bottom_container {
   width: 100%;
@@ -596,7 +624,45 @@ button {
   color: var(--colo-dark-2);
   padding: 1.5rem 0rem;
 }
+.footer_form_wrap{
+  color: var(--colo-white-1);
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
 
+.footer_input{
+  border: solid 0.2rem var(--colo-white-1);
+  border-radius: 0.3rem;
+  padding: 0.6rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+
+}
+
+.footer_form_submit {
+  background-color:var(--colo-white-1);
+  color: var(--colo-dark-1);
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+}
+
+.footer_form_email{
+  width: 100%;
+}
+
+
+.footer_down_img img{
+  width: 15rem;
+}
+
+.footer_down_icon{
+  margin: 1rem 0;
+
+  display: flex;
+  gap: 10px;
+}
 @media only screen and (max-width: 1070px) {
   .header_container {
     flex-direction: column;
@@ -878,3 +944,75 @@ button {
   align-items: center;
   gap: 1rem;
 }
+
+/* BACK TOP */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: var(--colo-primary); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.btncall{
+  position: fixed; /* Fixed/sticky position */
+  bottom: 70px; /* Place the button at the bottom of the page */
+  right: 20px;
+  z-index: 99; 
+  cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+.btncall img{
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+
+/* 404 */
+
+.err_btn{
+  background-color: var(--colo-primary);
+  padding: 1.6rem 4.8rem;
+  border-radius: 0.4rem;
+}
+
+.err_btn_link{
+  color: var(--colo-white-1);
+}
+
+.err_content{
+  text-align: center;
+  display: flex;
+}
+
+.err_head {
+  font-size: 8rem;
+  font-weight: 500;
+  color: var(--colo-dark-1);
+}
+
+
+.err_desc{
+  font-size: 1.6rem;
+  color: var(--colo-dark-1);
+  
+}
+
+.err_btn{
+  margin-top: 8rem;
+}
+
+
+
