@@ -3,32 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- logo -->
+    <LINK REL="SHORTCUT ICON"  HREF="./image/LOGO ONLY-02.png">
+
+    <!-- Chỗ này để tạo hiệu ứng -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <!-- file css -->
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/about.css">
-    <title>Cart - Exclusive E-Commerce Website</title>
+
+    <title>Về chúng tôi - TECHZONE</title>
   </head>
   <body>
     <div class="top_nav">
       <div class="container top_nav_container">
         <div class="top_nav_wrapper">
           <p class="tap_nav_p">
-            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+            <Marquee>SIÊU ƯU ĐÃI THÁNG 4 DUY NHẤT TẠI WEBSITE - GIẢM GIÁ 10%!</Marquee>
           </p>
-          <a href="#" class="top_nav_link">SHOP NOW</a>
+          <a href="#" class="top_nav_link">MUA NGAY</a>
         </div>
       </div>
     </div>
     <nav class="nav">
       <div class="container nav_container">
-        <a href="#" class="nav_logo">EXCLUSIVE</a>
+        <a href="./index.html" class="nav_logo">TECHZONE</a>
         <ul class="nav_list">
-          <li class="nav_item"><a href="/" class="nav_link">Home</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+          <li class="nav_item"><a href="/blogs.html" class="nav_link">Bài viết</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Hệ thống cửa hàng</a></li>
           <li class="nav_item">
-            <a href="./sign-up.html" class="nav_link">Sign up</a>
+            <a href="/about.html" class="nav_link">Về chúng tôi</a>
           </li>
         </ul>
         <div class="nav_items">
@@ -36,26 +50,46 @@
             <input
               type="text"
               class="nav_input"
-              placeholder="search here...." />
-            <img src="./image/search.png" alt="" class="nav_search" />
+              placeholder="Bạn đang tìm gì?"/>
+              <span class="material-icons-outlined">
+                search
+              </span>
           </form>
-          <img src="./image/heart.png" alt="" class="nav_heart" />
-          <a href="/cart.html">
-            <img src="./image/cart.png" alt="" class="nav_cart" />
-          </a>
+        <span class="material-icons-outlined nav_heart">
+          favorite_border
+        </span>
+        <a href="/cart.html">
+          <span class="material-icons-outlined nav_cart">
+            shopping_cart
+            </span>
+        </a>
+        <div class="nav_acc">
+          <span class="nav_signup">
+            <a href="./login.html" class="nav_sigup_link">
+              <span class="nav_sigup_link_text">Đăng nhập</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+              login
+              </span>
+            </a>
+          </span>
+
+          <span class="nav_signup_sp">|</span>
+
+          <span class="nav_login">
+            <a href="./sign-up.html" class="nav_login_link">
+              <span class="nav_sigup_link_text">Đăng ký</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+                person_outline
+                </span>
+            </a>
+          </span>
+        </div>
+
         </div>
         <span class="hamburger">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          <span class="material-icons-outlined">
+            menu
+            </span>
           </svg>
         </span>
       </div>
@@ -63,31 +97,34 @@
     <nav class="mobile_nav mobile_nav_hide">
       <ul class="mobile_nav_list">
         <li class="mobile_nav_item">
-          <a href="/" class="mobile_nav_link">Home</a>
+          <a href="/" class="mobile_nav_link">Trang chủ</a>
         </li>
         <li class="mobile_nav_item">
-          <a href="#" class="mobile_nav_link">About</a>
+          <a href="#" class="mobile_nav_link"></a>
         </li>
         <li class="mobile_nav_item">
-          <a href="#" class="mobile_nav_link">Contact</a>
+          <a href="#" class="mobile_nav_link">Hệ thống cửa hàng</a>
         </li>
         <li class="mobile_nav_item">
-          <a href="./sign-up.html" class="mobile_nav_link">Sign Up</a>
+          <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
         </li>
         <li class="mobile_nav_item">
           <a href="/cart.html" class="mobile_nav_link">Cart</a>
         </li>
       </ul>
     </nav>
-    
-
-
-
 
     <div class="container">
+
+      <div class="mem_gr">
+        <img src="./image/LOGO ONLY-01.png" alt="" class="mem_gr_img">
+        <div class="mem_gr_wrap">
+          <h2 class="mem_gr_header">We are Techzone</h2>
+        <div class="mem_gr_desc">Nhóm làm việc dựa trên...</div>
+        </div>
+      </div>
       <section class="section__mem">
         <div class="mem__header">
-
           <h3 class="mem__heading">THÀNH VIÊN NHÓM</h3>
         </div>
         <div class="mem__cards">
@@ -101,7 +138,8 @@
             <div class="mem__card__info">
               <span class="mem__card__category">Leader</span>
               <h3 class="mem__card__title">Nguyễn Nhật Tiên</h3>
-              <span class="mem__card__by">Stask <a href="#" class="mem__card__author" title="author">WORK</a></span>
+              <span class="mem__card__by">UX Desiger, cấu trúc chung, Header, Footer, >UX Desiger, cấu trúc chung, Header, Footer</span>
+              
             </div>
           </article>  
           <article class="mem__card mem__card--2">
@@ -114,9 +152,11 @@
                <div class="mem__card__img--hover"></div>
              </a>
             <div class="mem__card__info">
-              <span class="mem__card__category">Leader</span>
+              <span class="mem__card__category">Coder</span>
               <h3 class="mem__card__title">Nguyễn Ngọc Duy Anh</h3>
-              <span class="mem__card__by">Stask <a href="#" class="mem__card__author" title="author">WORK</a></span>
+              <span class="mem__card__by">Trang chủ, Danh sách sản phẩm
+              </span>
+              
             </div>
           </article>  
           <article class="mem__card mem__card--3">
@@ -129,9 +169,10 @@
                <div class="mem__card__img--hover"></div>
              </a>
             <div class="mem__card__info">
-              <span class="mem__card__category">Leader</span>
+              <span class="mem__card__category">Copywriter</span>
               <h3 class="mem__card__title">Thi Thị Như Ý</h3>
-              <span class="mem__card__by">Stask <a href="#" class="mem__card__author" title="author">WORK</a></span>
+              <span class="mem__card__by">Bài viết, PowerPoint</span>
+              
             </div>
           </article>  
           
@@ -145,9 +186,10 @@
                <div class="mem__card__img--hover"></div>
              </a>
             <div class="mem__card__info">
-              <span class="mem__card__category">Leader</span>
+              <span class="mem__card__category">Project Manager</span>
               <h3 class="mem__card__title">Huỳnh Thị Mỹ Dung</h3>
-              <span class="mem__card__by">Stask <a href="#" class="mem__card__author" title="author">WORK</a></span>
+              <span class="mem__card__by">Nội dung báo cáo, Quản lí dự án</span>
+              
             </div>
           </article>  
           <article class="mem__card mem__card--6">
@@ -160,9 +202,10 @@
                <div class="mem__card__img--hover"></div>
              </a>
             <div class="mem__card__info">
-              <span class="mem__card__category">Leader</span>
+              <span class="mem__card__category">Coder</span>
               <h3 class="mem__card__title">Nguyễn Minh Tiên</h3>
-              <span class="mem__card__by">Stask <a href="#" class="mem__card__author" title="author">WORK</a></span>
+              <span class="mem__card__by">Blog, Singup, Login</span>
+              
             </div>
           </article>  
           <article class="mem__card mem__card--5">
@@ -175,9 +218,10 @@
                <div class="mem__card__img--hover"></div>
              </a>
             <div class="mem__card__info">
-              <span class="mem__card__category">Leader</span>
+              <span class="mem__card__category">Copywriter</span>
               <h3 class="mem__card__title">Nguyễn Thị Hải Duyên</h3>
-              <span class="mem__card__by">Stask <a href="#" class="mem__card__author" title="author">WORK</a></span>
+              <span class="mem__card__by">Trang chủ, PowerPoint</span>
+              
             </div>
           </article>  
           
@@ -185,6 +229,125 @@
             </div>
           
       </section>
+
+      <section class="section__mem">
+        <div class="mem__header">
+          <h3 class="mem__heading">NHỮNG ĐIỂM NổI BẬT CỦA WEBSITE</h3>
+        </div>
+        <div class="list">
+          <ul>
+            <li><span>Sử dụng thư viện ScrollReveal</span></li>
+            <li><span>Consectetur adipisicing elit</span></li>
+            <li><span>Ut labore et dolore magna aliqua</span></li>
+            <li><span>Ut enim ad minim veniam</span></li>
+            <li><span>Quis nostrud exercitation ullamco</span></li>
+            <li><span>Laboris nisi ut aliquip ex</span></li>
+          </ul>
+          <ul>
+            <li><span>Sử dụng thư viện ScrollReveal</span></li>
+            <li><span>Consectetur adipisicing elit</span></li>
+            <li><span>Ut labore et dolore magna aliqua</span></li>
+            <li><span>Ut enim ad minim veniam</span></li>
+            <li><span>Quis nostrud exercitation ullamco</span></li>
+            <li><span>Laboris nisi ut aliquip ex</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section__mem">
+        <div class="mem__header">
+          <h3 class="mem__heading">QUÁ TRÌNH LÀM VIỆC</h3>
+        </div>
+        <div class="timeline">
+          <ul>
+              <li style="--accent-color:#41516C">
+                  <div class="date">2002</div>
+                  <div class="title">Title 1</div>
+                  <div class="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
+              </li>
+              <li style="--accent-color:#FBCA3E">
+                  <div class="date">2007</div>
+                  <div class="title">Title 2</div>
+                  <div class="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
+              </li>
+              <li style="--accent-color:#E24A68">
+                  <div class="date">2012</div>
+                  <div class="title">Title 3</div>
+                  <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
+              </li>
+              <li style="--accent-color:#1B5F8C">
+                  <div class="date">2017</div>
+                  <div class="title">Title 4</div>
+                  <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+              </li>
+              <li style="--accent-color:#4CADAD">
+                  <div class="date">2022</div>
+                  <div class="title">Title 5</div>
+                  <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+              </li>
+          </ul>
+
+        </div>
+ 
+
+      </section>
+      <section class="section__mem">
+        <div class="mem__header">
+          <h3 class="mem__heading">QUÁ TRÌNH LÀM VIỆC</h3>
+        </div>
+        <div class="mem_album">
+          <ul>
+            <li>
+              <a href="">
+                <figure>
+                  <img src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky'>
+                  <figcaption>Mountains and volcanos</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <figure>
+                  <img src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop'>
+                  <figcaption>Adventure getaways</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <figure>
+                  <img src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest'>
+                  <figcaption>Forest escapes</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <figure>
+                  <img src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone'>
+                  <figcaption>Hiking trails</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <figure>
+                  <img src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks'>
+                  <figcaption>Street scenes</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <figure>
+                  <img src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                  <figcaption>Trending</figcaption>
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </section> 
     </div>
 
 
@@ -192,15 +355,90 @@
 
       
 
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer_item">
+          <a href="#" class="footer_logo">TECHZONE</a>
+          <div class="footer_p">
+            Nâng tầm công nghệ, kết nối tương lai
+          </div>
+          <div class="footer_form_wrap">
+            <form class="footer_form">
+              <label for="Hoten">ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI</label>
+              <div class="footer_input">
+                <input class="footer_form_email" type="email" id="footer_email" name="email" placeholder="Nhập email">
+            
+                <input class="footer_form_submit" type="submit" value="Gửi">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Hỗ trợ</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item">Gò Vấp, TP Hồ Chí Minh</li>
+            <li class="li footer_list_item">Email: Techzone@gmail.com</li>
+            <li class="li footer_list_item">Bảo hành: 1900 0000</li>
+            <li class="li footer_list_item">Khiếu nại: 1900 1111</li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Thông tin</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item"><a href="#">Giới thiệu công ty</a></li>
+            <li class="li footer_list_item"><a href="#">Chuỗi cửa hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Phương châm bán hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Tuyển dụng</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Tài khoản</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item"><a href="./cart.html">Giỏ hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Thanh toán</a></li>
+            <li class="li footer_list_item"><a href="#">Yêu thích</a></li>
+            <li class="li footer_list_item"><a href="#">Đăng xuất</a></li>
+          </ul>
+        </div>
 
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Kết nối với chúng tôi</h3>
+          <ul class="footer_list">
+            <li class="footer_down">
+              <div class="footer_header_down">Tải ứng dụng</div>
+            </li>
+            <li class="footer_down">
+              <div class="footer_down_img">
+                <img src="https://freepngimg.com/thumb/apple/58663-app-google-play-store-apple-download-hd-png.png" alt="">
+              </div>
+            </li>
+            <li class="footer_down">
+              <div class="footer_down_icon">
+              <img src="./image/icons/facebook.png" alt="" class="footer_down_img">
+              <img src="./image/icons/icon-instagram.png" alt="" class="footer_down_img">
+              <img src="./image/icons/Icon-Linkedin.png" alt="" class="footer_down_img">
+              <img src="./image/icons/Icon-Twitter.png" alt="" class="footer_down_img">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="footer_bottom">
         <div class="container footer_bottom_container">
           <p class="footer_copy">
-            Copyright Exclusive 2023. All right reserved
+            Copyright Techzone 2024. All right reserved
           </p>
         </div>
       </div>
     </footer>
-    <script src="./js/cart.js"></script>
-  </body>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons-outlined">
+      expand_less
+      </span></button>
+    <div class="btncall">
+      <img src="./image/brand/zalo-logo.png" alt="">
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
 </html>

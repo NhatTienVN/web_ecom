@@ -35,7 +35,7 @@
     </div>
     <nav class="nav">
       <div class="container nav_container">
-        <a href="#" class="nav_logo">TECHZONE</a>
+        <a href="./" class="nav_logo">TECHZONE</a>
         <ul class="nav_list">
           <li class="nav_item"><a href="/blogs.html" class="nav_link">Bài viết</a></li>
           <li class="nav_item"><a href="#" class="nav_link">Hệ thống cửa hàng</a></li>
@@ -62,9 +62,25 @@
             </span>
         </a>
         <div class="nav_acc">
-          <span class="nav_signup"><a href="./sign-up.html" class="nav_sigup_link">Đăng nhập</a></span>
-          <span class="nav_signup">|</span>
-          <span class="nav_login"><a href="./sign-up.html" class="nav_login_link">Đăng ký</a></span>
+          <span class="nav_signup">
+            <a href="./login.html" class="nav_sigup_link">
+              <span class="nav_sigup_link_text">Đăng nhập</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+              login
+              </span>
+            </a>
+          </span>
+
+          <span class="nav_signup_sp">|</span>
+
+          <span class="nav_login">
+            <a href="./sign-up.html" class="nav_login_link">
+              <span class="nav_sigup_link_text">Đăng ký</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+                person_outline
+                </span>
+            </a>
+          </span>
         </div>
 
         </div>
@@ -98,7 +114,7 @@
     <header class="header">
       <div class="container header_container">
         <div class="header_filter">
-          <a href="#" class="header_filter_link">iPhone</a>
+          <a href="./product_list.html" class="header_filter_link">iPhone</a>
           <a href="#" class="header_filter_link">Samsung</a>
           <a href="#" class="header_filter_link">Xiaomi</a>
           <a href="#" class="header_filter_link">Oppo</a>
@@ -110,13 +126,11 @@
         </div>
         <div class="swiper swiper1 mySwiper-hero">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./image/header.png" alt=""></div>
-            <div class="swiper-slide"><img src="./image/header.png" alt=""></div>
-            <div class="swiper-slide"><img src="./image/header.png" alt=""></div>
-            <div class="swiper-slide"><img src="./image/header.png" alt=""></div>
-            <div class="swiper-slide"><img src="./image/header.png" alt=""></div>
-            <div class="swiper-slide"><img src="./image/header.png" alt=""></div>
-
+            <div class="swiper-slide"><img src="./image/banner/banner_2.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/banner/banner_1.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/banner/banner_3.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/banner/banner_4.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/banner/header.png" alt=""></div>
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -138,13 +152,13 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="card">
+              <div class="card" onclick="openNewPage()">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items-pro/iphone-15-pro-max_4__1.webp" />
-                    <img src="./image/items-pro/iphone-15-pro-max_3.webp" alt="" class="card_img2" />
+                    <img src="./image/items-pro/iphone/iphone-15-pro-max_4__1.webp" />
+                    <img src="./image/items-pro/iphone/iphone-15-pro-max_3.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-15%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -157,8 +171,8 @@
                 <div class="card_body">
                   <h3 class="card_title">iPhone 15 Pro Max 256GB</h3>
                   <div class="card_price">
-                    <p class="card_price_new">34.990.000 đ</p>
-                    <p class="card_price_old">29.790.000 đ
+                    <p class="card_price_new">29.790.000 đ</p>
+                    <p class="card_price_old">34.990.000 đ
                     </p>
                   </div>
                   <div class="card_ratings">
@@ -169,33 +183,33 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                            star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                            star
                       </span>
                       <span class="material-icons-outlined md-18">
                               star_rate
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(141)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="iPhone 15 Pro Max 256GB"
+                    data-image="./image/items-pro/iphone/iphone-15-pro-max_4__1.webp"
+                    data-price="29.790.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="iPhone 15 Pro Max 256GB"
+                    data-image="./image/items-pro/iphone/iphone-15-pro-max_4__1.webp"
+                    data-price="29.790.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -210,10 +224,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items/item-1.png" alt="" class="card_img1" />
-                    <img src="./image/items/item-2.png" alt="" class="card_img2" />
+                    <img src="./image/items-pro/samsung/galaxy-z-fold-5-kem-1.webp" alt="" class="card_img1" />
+                    <img src="./image/items-pro/samsung/galaxy-z-fold-5-xam-1.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-25%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -224,10 +238,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
+                  <h3 class="card_title">Samsung Galaxy Z Fold5 12GB 256GB</h3>
                   <div class="card_price">
-                    <p class="card_price_new">$120</p>
-                    <p class="card_price_old">$5222</p>
+                    <p class="card_price_new">31.390.000 đ</p>
+                    <p class="card_price_old">40.990.000 đ</p>
                   </div>
                   <div class="card_ratings">
                     <div class="card_stars">
@@ -237,33 +251,33 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                            star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                            star
                       </span>
                       <span class="material-icons-outlined md-18">
                               star_rate
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(121)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="Samsung Galaxy Z Fold5 12GB 256GB"
+                    data-image="./image/items-pro/samsung/galaxy-z-fold-5-kem-1.webp"
+                    data-price="31.390.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="Samsung Galaxy Z Fold5 12GB 256GB"
+                    data-image="./image/items-pro/samsung/galaxy-z-fold-5-kem-1.webp"
+                    data-price="31.390.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -278,10 +292,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items/item-1.png" alt="" class="card_img1" />
-                    <img src="./image/items/item-2.png" alt="" class="card_img2" />
+                    <img src="./image/items-pro/Xiaomi/xiami-13t-xanh-01_1_1.webp" alt="" class="card_img1" />
+                    <img src="./image/items-pro/Xiaomi/xiami-13t-xanh-la-01_1_1.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-15%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -292,10 +306,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
+                  <h3 class="card_title">Xiaomi 13T Pro 5G (12GB - 512GB)</h3>
                   <div class="card_price">
-                    <p class="card_price_new">$120</p>
-                    <p class="card_price_old">$5222</p>
+                    <p class="card_price_new">14.790.000 đ</p>
+                    <p class="card_price_old">16.990.000 đ</p>
                   </div>
                   <div class="card_ratings">
                     <div class="card_stars">
@@ -305,8 +319,8 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
                       <span class="material-icons-outlined md-18">
                             star_rate
@@ -315,23 +329,23 @@
                               star_rate
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(91)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="Xiaomi 13T Pro 5G (12GB - 512GB)"
+                    data-image="./image/items-pro/Xiaomi/xiami-13t-xanh-01_1_1.webp"
+                    data-price="14.790.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="Xiaomi 13T Pro 5G (12GB - 512GB)"
+                    data-image="./image/items-pro/Xiaomi/xiami-13t-xanh-01_1_1.webp"
+                    data-price="14.790.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -346,10 +360,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items/item-1.png" alt="" class="card_img1" />
-                    <img src="./image/items/item-2.png" alt="" class="card_img2" />
+                    <img src="./image/items-pro/oppo/reno10_5g_-_combo_product_-_blue_-_copy_2.webp" alt="" class="card_img1" />
+                    <img src="./image/items-pro/oppo/reno10_5g_-_combo_product_-_grey_2.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-20%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -360,10 +374,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
+                  <h3 class="card_title">OPPO Reno10 128GB</h3>
                   <div class="card_price">
-                    <p class="card_price_new">$120</p>
-                    <p class="card_price_old">$5222</p>
+                    <p class="card_price_new">7.890.000 đ</p>
+                    <p class="card_price_old">9.990.000 đ</p>
                   </div>
                   <div class="card_ratings">
                     <div class="card_stars">
@@ -373,8 +387,8 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
                       <span class="material-icons-outlined md-18">
                             star_rate
@@ -383,23 +397,23 @@
                               star_rate
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(79)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="OPPO Reno10 128GB"
+                    data-image="./image/items-pro/oppo/reno10_5g_-_combo_product_-_blue_-_copy_2.webp"
+                    data-price="7.890.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="OPPO Reno10 128GB"
+                    data-image="./image/items-pro/oppo/reno10_5g_-_combo_product_-_blue_-_copy_2.webp"
+                    data-price="7.890.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -414,10 +428,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items/item-1.png" alt="" class="card_img1" />
-                    <img src="./image/items/item-2.png" alt="" class="card_img2" />
+                    <img src="./image/items-pro/ipad/ipad-pro-13-select-wifi-silver-202210-01_1_1.webp" alt="" class="card_img1" />
+                    <img src="./image/items-pro/ipad/ipad-pro-13-select-wifi-spacegray-202210-02_1_1.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-5%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -428,10 +442,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
+                  <h3 class="card_title">iPad Pro M2 12.9 inch 5G - 128 GB</h3>
                   <div class="card_price">
-                    <p class="card_price_new">$120</p>
-                    <p class="card_price_old">$5222</p>
+                    <p class="card_price_new">31.490.000 đ</p>
+                    <p class="card_price_old">33.090.000 đ</p>
                   </div>
                   <div class="card_ratings">
                     <div class="card_stars">
@@ -441,33 +455,33 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                            star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                            star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                              star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                              star
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(45)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="iPad Pro M2 12.9 inch 5G - 128 GB"
+                    data-image="./image/items-pro/ipad/ipad-pro-13-select-wifi-silver-202210-01_1_1.webp"
+                    data-price="31.490.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="iPad Pro M2 12.9 inch 5G - 128 GB"
+                    data-image="./image/items-pro/ipad/ipad-pro-13-select-wifi-silver-202210-01_1_1.webp"
+                    data-price="31.490.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -482,7 +496,7 @@
           <div class="swiper-pagination"></div>
         </div>
         <div class="container_btn">
-          <a href="#" class="container_btn_a">VIEW ALL PRODUCTS</a>
+          <a href="#" class="container_btn_a">XEM THÊM</a>
         </div>
       </div>
     </section>
@@ -538,7 +552,6 @@
         </div>
         <div class="section_header">
           <h3 class="section_title">Bán chạy nhất</h3>
-          <p id="demo"></p>
         </div>
         <!-- Swiper -->
         <div class="swiper mySwiper">
@@ -547,10 +560,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items-pro/iphone-15-pro-max_4__1.webp" />
-                    <img src="./image/items-pro/iphone-15-pro-max_3.webp" alt="" class="card_img2" />
+                    <img src="./image/items-pro/iphone_2/iphone-14-pro-max-256gb-tim.webp" />
+                    <img src="./image/items-pro/iphone_2/iphone-14-pro-max-256gb.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-15%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -561,10 +574,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">iPhone 15 Pro Max 256GB</h3>
+                  <h3 class="card_title">iPhone 14 Pro Max 256GB</h3>
                   <div class="card_price">
-                    <p class="card_price_new">34.990.000 đ</p>
-                    <p class="card_price_old">29.790.000 đ
+                    <p class="card_price_new">28.290.000 đ</p>
+                    <p class="card_price_old">32.990.000 đ
                     </p>
                   </div>
                   <div class="card_ratings">
@@ -575,33 +588,33 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                            star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                            star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                              star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                              star
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(333)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="iPhone 14 Pro Max 256GB"
+                    data-image="./image/items-pro/iphone_2/iphone-14-pro-max-256gb-tim.webp"
+                    data-price="28.290.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="iPhone 14 Pro Max 256GB"
+                    data-image="./image/items-pro/iphone_2/iphone-14-pro-max-256gb-tim.webp"
+                    data-price="28.290.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -616,10 +629,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items/item-1.png" alt="" class="card_img1" />
-                    <img src="./image/items/item-2.png" alt="" class="card_img2" />
+                    <img src="./image/items-pro/xiaomi_2/xiaomi-redmi-note-12-pro-5g-den.webp" alt="" class="card_img1" />
+                    <img src="./image/items-pro/xiaomi_2/xiaomi-redmi-note-12-pro-5g.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-25%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -630,10 +643,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
+                  <h3 class="card_title">Xiaomi Redmi Note 12 Pro 5G</h3>
                   <div class="card_price">
-                    <p class="card_price_new">$120</p>
-                    <p class="card_price_old">$5222</p>
+                    <p class="card_price_new">7.390.000 đ</p>
+                    <p class="card_price_old">9.490.000 đ</p>
                   </div>
                   <div class="card_ratings">
                     <div class="card_stars">
@@ -643,33 +656,33 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                            star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                            star
                       </span>
                       <span class="material-icons-outlined md-18">
                               star_rate
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(239)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="Xiaomi Redmi Note 12 Pro 5G"
+                    data-image="./image/items-pro/xiaomi_2/xiaomi-redmi-note-12-pro-5g-den.webp"
+                    data-price="7.390.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="Xiaomi Redmi Note 12 Pro 5G"
+                    data-image="./image/items-pro/xiaomi_2/xiaomi-redmi-note-12-pro-5g-den.webp"
+                    data-price="7.390.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -684,10 +697,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items/item-1.png" alt="" class="card_img1" />
-                    <img src="./image/items/item-2.png" alt="" class="card_img2" />
+                    <img src="./image/items-pro/samsung_2/sm-a556_galaxy_a55_awesome_iceblue_ui.webp" alt="" class="card_img1" />
+                    <img src="./image/items-pro/samsung_2/sm-a556_galaxy_a55_awesome_navy_ui.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-3%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -698,10 +711,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
+                  <h3 class="card_title">Samsung Galaxy A55</h3>
                   <div class="card_price">
-                    <p class="card_price_new">$120</p>
-                    <p class="card_price_old">$5222</p>
+                    <p class="card_price_new">9.690.000 đ</p>
+                    <p class="card_price_old">9.990.000 đ</p>
                   </div>
                   <div class="card_ratings">
                     <div class="card_stars">
@@ -711,33 +724,33 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                            star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                            star
                       </span>
                       <span class="material-icons-outlined md-18">
                               star_rate
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(222)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="Samsung Galaxy A55"
+                    data-image="./image/items-pro/samsung_2/sm-a556_galaxy_a55_awesome_iceblue_ui.webp"
+                    data-price="9.690.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="Samsung Galaxy A55"
+                    data-image="./image/items-pro/samsung_2/sm-a556_galaxy_a55_awesome_iceblue_ui.webp"
+                    data-price="9.690.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -752,10 +765,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items/item-1.png" alt="" class="card_img1" />
-                    <img src="./image/items/item-2.png" alt="" class="card_img2" />
+                    <img src="./image/items-pro/oppo_2/oppo_reno6.webp" alt="" class="card_img1" />
+                    <img src="./image/items-pro/oppo_2/oppo_reno6_den.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-30%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -766,10 +779,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
+                  <h3 class="card_title">OPPO Reno6 Z 5G</h3>
                   <div class="card_price">
-                    <p class="card_price_new">$120</p>
-                    <p class="card_price_old">$5222</p>
+                    <p class="card_price_new">6.790.000 đ</p>
+                    <p class="card_price_old">9.490.000 đ</p>
                   </div>
                   <div class="card_ratings">
                     <div class="card_stars">
@@ -779,33 +792,33 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                            star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                            star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                              star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                              star
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(174)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="OPPO Reno6 Z 5G"
+                    data-image="./image/items-pro/oppo_2/oppo_reno6.webp"
+                    data-price="6.790.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="OPPO Reno6 Z 5G"
+                    data-image="./image/items-pro/oppo_2/oppo_reno6.webp"
+                    data-price="6.790.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -820,10 +833,10 @@
               <div class="card">
                 <div class="card_top">
                   <div class="card_image">
-                    <img src="./image/items/item-1.png" alt="" class="card_img1" />
-                    <img src="./image/items/item-2.png" alt="" class="card_img2" />
+                    <img src="./image/items-pro/ipad_2/ipad-air-5-xanh.webp" alt="" class="card_img1" />
+                    <img src="./image/items-pro/ipad_2/ipad-air-5.webp" alt="" class="card_img2" />
                   </div>
-                  <div class="card_tag">-40%</div>
+                  <div class="card_tag">-7%</div>
                   <div class="card_top_icons">
                     <span class="material-icons-outlined md-18 card_top_icon icon_love">
                       favorite_border
@@ -834,10 +847,10 @@
                   </div>
                 </div>
                 <div class="card_body">
-                  <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
+                  <h3 class="card_title">iPad Air 5 M1 Wifi - 64GB</h3>
                   <div class="card_price">
-                    <p class="card_price_new">$120</p>
-                    <p class="card_price_old">$5222</p>
+                    <p class="card_price_new">14.590.000 đ</p>
+                    <p class="card_price_old">15.590.000 đ</p>
                   </div>
                   <div class="card_ratings">
                     <div class="card_stars">
@@ -847,33 +860,33 @@
                       <span class="material-icons-outlined md-18 fill_star">
                         star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                          star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                          star
                       </span>
-                      <span class="material-icons-outlined md-18">
-                            star_rate
+                      <span class="material-icons-outlined md-18 fill_star">
+                            star
                       </span>
                       <span class="material-icons-outlined md-18">
                               star_rate
                       </span>
                     </div>
-                    <p class="card_rating_numbers">(88)</p>
+                    <p class="card_rating_numbers">(198)</p>
                   </div>
                   <div class="card_btns">
                     <button
                     class="shop_now"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="iPad Air 5 M1 Wifi - 64GB"
+                    data-image="./image/items-pro/ipad_2/ipad-air-5-xanh.webp"
+                    data-price="14.590.000 đ">
                     MUA NGAY
                     </button>
                     <button
                     class="add_to_cart"
                     data-id="1"
-                    data-title="HAVIT HV-G92 Gamepad"
-                    data-image="./image/items/item-1.png"
-                    data-price="120">
+                    data-title="iPad Air 5 M1 Wifi - 64GB"
+                    data-image="./image/items-pro/ipad_2/ipad-air-5-xanh.webp"
+                    data-price="14.590.000 đ">
                     <span class="material-icons-outlined">
                       add_shopping_cart
                       </span>
@@ -888,7 +901,7 @@
           <div class="swiper-pagination"></div>
         </div>
         <div class="container_btn">
-          <a href="#" class="container_btn_a">VIEW ALL PRODUCTS</a>
+          <a href="#" class="container_btn_a">XEM THÊM</a>
         </div>
       </div>
     </section>
@@ -896,11 +909,11 @@
       <div class="container">
         <div class="trending">
           <div class="trending_content">
-            <p class="trending_p">categories</p>
-            <h2 class="trending_title">Enhance Your Music Experience</h2>
-            <a href="#" class="trending_btn">Buy Now!</a>
+            <p class="trending_p">Mới nhất</p>
+            <h2 class="trending_title">iPhone 15 Pro Max 1TB Titan Đen</h2>
+            <a href="./product_detail.html" class="trending_btn">Mua ngay!</a>
           </div>
-          <img src="./image/speaker.png" alt="" class="trending_img" />
+          <img src="./image/items-pro/iphone-15-pro.jpg" alt="" class="trending_img" />
         </div>
       </div>
     </section>
@@ -908,800 +921,544 @@
     <section class="section">
       <div class="container">
         <div class="section_category">
-          <p class="section_category_p">Our Products</p>
+          <p class="section_category_p">Sản phẩm</p>
         </div>
         <div class="section_header">
-          <h3 class="section_title">Explore Our Products</h3>
-          <p id="demo"></p>
+          <h3 class="section_title">IPHONE</h3>
         </div>
         <div class="products">
           <div class="card">
             <div class="card_top">
-              <img src="./image/items/item-9.png" alt="" class="card_img" />
+              <div class="card_image">
+                <img src="./image/items-pro/IP/iphone-15-pro-max_3.webp" alt="" class="card_img1" />
+                <img src="./image/items-pro/IP/iphone-15-pro-max_4__1.webp" alt="" class="card_img2" />
+              </div>
+              <div class="card_tag">-15%</div>
               <div class="card_top_icons">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+                <span class="material-icons-outlined md-18 card_top_icon icon_love">
+                  favorite_border
+                  </span>
+                  <span class="material-icons-outlined md-18 card_top_icon icon_top_icon_vis">
+                    visibility
+                    </span>
               </div>
             </div>
             <div class="card_body">
-              <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
-              <p class="card_price">$120</p>
+              <h3 class="card_title">iPhone 15 Pro Max 256GB</h3>
+              <div class="card_price">
+                <p class="card_price_new">29.790.000 đ</p>
+                <p class="card_price_old">34.990.000 đ</p>
+              </div>
               <div class="card_ratings">
                 <div class="card_stars">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                      star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                        star
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                          star_rate
+                  </span>
                 </div>
-                <p class="card_rating_numbers">(88)</p>
+                <p class="card_rating_numbers">(141)</p>
               </div>
+              <div class="card_btns">
+                <button
+                class="shop_now"
+                data-id="1"
+                data-title="iPhone 15 Pro Max 256GB"
+                data-image="./image/items-pro/IP/iphone-15-pro-max_3.webp"
+                data-price="29.790.000 đ">
+                MUA NGAY
+                </button>
+                <button
+                class="add_to_cart"
+                data-id="1"
+                data-title="iPhone 15 Pro Max 256GB"
+                data-image="./image/items-pro/IP/iphone-15-pro-max_3.webp"
+                data-price="29.790.000 đ">
+                <span class="material-icons-outlined">
+                  add_shopping_cart
+                  </span>
+
+              </button>
+            </div>
+
             </div>
           </div>
           <div class="card">
             <div class="card_top">
-              <img src="./image/items/item-10.png" alt="" class="card_img" />
+              <div class="card_image">
+                <img src="./image/items-pro/IP/iphone-14-pro-max-256gb-tim.webp" alt="" class="card_img1" />
+                <img src="./image/items-pro/IP/iphone-14-pro-max-256gb.webp" alt="" class="card_img2" />
+              </div>
+              <div class="card_tag">-15%</div>
               <div class="card_top_icons">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+                <span class="material-icons-outlined md-18 card_top_icon icon_love">
+                  favorite_border
+                  </span>
+                  <span class="material-icons-outlined md-18 card_top_icon icon_top_icon_vis">
+                    visibility
+                    </span>
               </div>
             </div>
             <div class="card_body">
-              <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
-              <p class="card_price">$120</p>
+              <h3 class="card_title">iPhone 14 Pro Max 256GB</h3>
+              <div class="card_price">
+                <p class="card_price_new">28.290.000 đ</p>
+                <p class="card_price_old">32.990.000 đ</p>
+              </div>
               <div class="card_ratings">
                 <div class="card_stars">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                      star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                        star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                          star
+                  </span>
                 </div>
-                <p class="card_rating_numbers">(88)</p>
+                <p class="card_rating_numbers">(333)</p>
               </div>
+              <div class="card_btns">
+                <button
+                class="shop_now"
+                data-id="1"
+                data-title="iPhone 14 Pro Max 256GB"
+                data-image="./image/items-pro/IP/iphone-14-pro-max-256gb-tim.webp"
+                data-price="28.290.000 đ">
+                MUA NGAY
+                </button>
+                <button
+                class="add_to_cart"
+                data-id="1"
+                data-title="iPhone 14 Pro Max 256GB"
+                data-image="./image/items-pro/IP/iphone-14-pro-max-256gb-tim.webp"
+                data-price="28.290.000 đ">
+                <span class="material-icons-outlined">
+                  add_shopping_cart
+                  </span>
+
+              </button>
+            </div>
+
             </div>
           </div>
           <div class="card">
             <div class="card_top">
-              <img src="./image/items/item-11.png" alt="" class="card_img" />
+              <div class="card_image">
+                <img src="./image/items-pro/IP/iphone-13-pro-max-xanh.webp" alt="" class="card_img1" />
+                <img src="./image/items-pro/IP/iphone-13-pro-max.webp" alt="" class="card_img2" />
+              </div>
+              <div class="card_tag">-25%</div>
               <div class="card_top_icons">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+                <span class="material-icons-outlined md-18 card_top_icon icon_love">
+                  favorite_border
+                  </span>
+                  <span class="material-icons-outlined md-18 card_top_icon icon_top_icon_vis">
+                    visibility
+                    </span>
               </div>
             </div>
             <div class="card_body">
-              <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
-              <p class="card_price">$120</p>
+              <h3 class="card_title">iPhone 13 Pro Max 256GB</h3>
+              <div class="card_price">
+                <p class="card_price_new">23.990.000 đ</p>
+                <p class="card_price_old">31.990.000 đ</p>
+              </div>
               <div class="card_ratings">
                 <div class="card_stars">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                      star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                        star
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                          star_rate
+                  </span>
                 </div>
-                <p class="card_rating_numbers">(88)</p>
+                <p class="card_rating_numbers">(132)</p>
               </div>
+              <div class="card_btns">
+                <button
+                class="shop_now"
+                data-id="1"
+                data-title="iPhone 13 Pro Max 256GB"
+                data-image="./image/items-pro/IP/iphone-13-pro-max-xanh.webp"
+                data-price="23.990.000 đ">
+                MUA NGAY
+                </button>
+                <button
+                class="add_to_cart"
+                data-id="1"
+                data-title="iPhone 13 Pro Max 256GB"
+                data-image="./image/items-pro/IP/iphone-13-pro-max-xanh.webp"
+                data-price="23.990.000 đ">
+                <span class="material-icons-outlined">
+                  add_shopping_cart
+                  </span>
+
+              </button>
+            </div>
+
             </div>
           </div>
           <div class="card">
             <div class="card_top">
-              <img src="./image/items/item-12.png" alt="" class="card_img" />
+              <div class="card_image">
+                <img src="./image/items-pro/IP/iphone-12-pro-max.webp" alt="" class="card_img1" />
+                <img src="./image/items-pro/IP/iphone-12-pro-max-kem.webp" alt="" class="card_img2" />
+              </div>
+              <div class="card_tag">-14%</div>
               <div class="card_top_icons">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+                <span class="material-icons-outlined md-18 card_top_icon icon_love">
+                  favorite_border
+                  </span>
+                  <span class="material-icons-outlined md-18 card_top_icon icon_top_icon_vis">
+                    visibility
+                    </span>
               </div>
             </div>
             <div class="card_body">
-              <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
-              <p class="card_price">$120</p>
+              <h3 class="card_title">iPhone 12 Pro Max 256GB</h3>
+              <div class="card_price">
+                <p class="card_price_new">27.590.000 đ</p>
+                <p class="card_price_old">31.990.000 đ</p>
+              </div>
               <div class="card_ratings">
                 <div class="card_stars">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                      star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                        star
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                          star_rate
+                  </span>
                 </div>
-                <p class="card_rating_numbers">(88)</p>
+                <p class="card_rating_numbers">(89)</p>
               </div>
+              <div class="card_btns">
+                <button
+                class="shop_now"
+                data-id="1"
+                data-title="iPhone 12 Pro Max 256GB"
+                data-image="./image/items-pro/IP/iphone-12-pro-max.webp"
+                data-price="27.590.000 đ">
+                MUA NGAY
+                </button>
+                <button
+                class="add_to_cart"
+                data-id="1"
+                data-title="iPhone 12 Pro Max 256GB"
+                data-image="./image/items-pro/IP/iphone-12-pro-max.webp"
+                data-price="27.590.000 đ">
+                <span class="material-icons-outlined">
+                  add_shopping_cart
+                  </span>
+
+              </button>
+            </div>
+
             </div>
           </div>
           <div class="card">
             <div class="card_top">
-              <img src="./image/items/item-13.png" alt="" class="card_img" />
+              <div class="card_image">
+                <img src="./image/items-pro/IP/iphone-12-mini-blue.webp" alt="" class="card_img1" />
+                <img src="./image/items-pro/IP/iphone-12-mini-black.webp" alt="" class="card_img2" />
+              </div>
+              <div class="card_tag">-48%</div>
               <div class="card_top_icons">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+                <span class="material-icons-outlined md-18 card_top_icon icon_love">
+                  favorite_border
+                  </span>
+                  <span class="material-icons-outlined md-18 card_top_icon icon_top_icon_vis">
+                    visibility
+                    </span>
               </div>
             </div>
             <div class="card_body">
-              <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
-              <p class="card_price">$120</p>
+              <h3 class="card_title">iPhone 12 mini 256GB</h3>
+              <div class="card_price">
+                <p class="card_price_new">10.990.000 đ</p>
+                <p class="card_price_old">20.990.000 đ</p>
+              </div>
               <div class="card_ratings">
                 <div class="card_stars">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                      star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                        star
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                          star_rate
+                  </span>
                 </div>
-                <p class="card_rating_numbers">(88)</p>
+                <p class="card_rating_numbers">(289)</p>
               </div>
+              <div class="card_btns">
+                <button
+                class="shop_now"
+                data-id="1"
+                data-title="iPhone 12 mini 256GB"
+                data-image="./image/items-pro/IP/iphone-12-mini-blue.webp"
+                data-price="10.990.000 đ">
+                MUA NGAY
+                </button>
+                <button
+                class="add_to_cart"
+                data-id="1"
+                data-title="iPhone 12 mini 256GB"
+                data-image="./image/items-pro/IP/iphone-12-mini-blue.webp"
+                data-price="10.990.000 đ">
+                <span class="material-icons-outlined">
+                  add_shopping_cart
+                  </span>
+
+              </button>
+            </div>
+
             </div>
           </div>
           <div class="card">
             <div class="card_top">
-              <img src="./image/items/item-14.png" alt="" class="card_img" />
+              <div class="card_image">
+                <img src="./image/items-pro/IP/iphone-11.webp" alt="" class="card_img1" />
+                <img src="./image/items-pro/IP/iphone-11-trang.webp" alt="" class="card_img2" />
+              </div>
+              <div class="card_tag">-26%</div>
               <div class="card_top_icons">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+                <span class="material-icons-outlined md-18 card_top_icon icon_love">
+                  favorite_border
+                  </span>
+                  <span class="material-icons-outlined md-18 card_top_icon icon_top_icon_vis">
+                    visibility
+                    </span>
               </div>
             </div>
             <div class="card_body">
-              <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
-              <p class="card_price">$120</p>
+              <h3 class="card_title">iPhone 11 64GB</h3>
+              <div class="card_price">
+                <p class="card_price_new">8.890.000 đ</p>
+                <p class="card_price_old">$11.990.000 đ</p>
+              </div>
               <div class="card_ratings">
                 <div class="card_stars">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                      star
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                        star_rate
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                          star_rate
+                  </span>
                 </div>
-                <p class="card_rating_numbers">(88)</p>
+                <p class="card_rating_numbers">(192)</p>
               </div>
+              <div class="card_btns">
+                <button
+                class="shop_now"
+                data-id="1"
+                data-title="iPhone 11 64GB"
+                data-image="./image/items-pro/IP/iphone-11.webp"
+                data-price="8.890.000 đ">
+                MUA NGAY
+                </button>
+                <button
+                class="add_to_cart"
+                data-id="1"
+                data-title="iPhone 11 64GB"
+                data-image="./image/items-pro/IP/iphone-11.webp"
+                data-price="8.890.000 đ">
+                <span class="material-icons-outlined">
+                  add_shopping_cart
+                  </span>
+
+              </button>
+            </div>
+
             </div>
           </div>
           <div class="card">
             <div class="card_top">
-              <img src="./image/items/item-15.png" alt="" class="card_img" />
+              <div class="card_image">
+                <img src="./image/items-pro/IP/iphone-13-pro.webp" alt="" class="card_img1" />
+                <img src="./image/items-pro/IP/iphone-13-pro-trang.webp" alt="" class="card_img2" />
+              </div>
+              <div class="card_tag">-12%</div>
               <div class="card_top_icons">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+                <span class="material-icons-outlined md-18 card_top_icon icon_love">
+                  favorite_border
+                  </span>
+                  <span class="material-icons-outlined md-18 card_top_icon icon_top_icon_vis">
+                    visibility
+                    </span>
               </div>
             </div>
             <div class="card_body">
-              <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
-              <p class="card_price">$120</p>
+              <h3 class="card_title">iPhone 13 Pro 512GB</h3>
+              <div class="card_price">
+                <p class="card_price_new">25.490.000 đ</p>
+                <p class="card_price_old">28.990.000 đ</p>
+              </div>
               <div class="card_ratings">
                 <div class="card_stars">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                      star
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                        star_rate
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                          star_rate
+                  </span>
                 </div>
-                <p class="card_rating_numbers">(88)</p>
+                <p class="card_rating_numbers">(78)</p>
               </div>
+              <div class="card_btns">
+                <button
+                class="shop_now"
+                data-id="1"
+                data-title="iPhone 13 Pro 512GB"
+                data-image="./image/items-pro/IP/iphone-13-pro.webp"
+                data-price="25.490.000 đ">
+                MUA NGAY
+                </button>
+                <button
+                class="add_to_cart"
+                data-id="1"
+                data-title="iPhone 13 Pro 512GB"
+                data-image="./image/items-pro/IP/iphone-13-pro.webp"
+                data-price="25.490.000 đ">
+                <span class="material-icons-outlined">
+                  add_shopping_cart
+                  </span>
+
+              </button>
+            </div>
+
             </div>
           </div>
           <div class="card">
             <div class="card_top">
-              <img src="./image/items/item-16.png" alt="" class="card_img" />
+              <div class="card_image">
+                <img src="./image/items-pro/IP/iphone-12-pro.webp" alt="" class="card_img1" />
+                <img src="./image/items-pro/IP/iphone-12-pro-tim.webp" alt="" class="card_img2" />
+              </div>
+              <div class="card_tag">-29%</div>
               <div class="card_top_icons">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="card_top_icon">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+                <span class="material-icons-outlined md-18 card_top_icon icon_love">
+                  favorite_border
+                  </span>
+                  <span class="material-icons-outlined md-18 card_top_icon icon_top_icon_vis">
+                    visibility
+                    </span>
               </div>
             </div>
             <div class="card_body">
-              <h3 class="card_title">HAVIT HV-G92 Gamepad</h3>
-              <p class="card_price">$120</p>
+              <h3 class="card_title">iPhone 12 128GB</h3>
+              <div class="card_price">
+                <p class="card_price_new">12.790.000 đ</p>
+                <p class="card_price_old">17.990.000 đ</p>
+              </div>
               <div class="card_ratings">
                 <div class="card_stars">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="w-6 h-6">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                      clip-rule="evenodd" />
-                  </svg>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                    star
+                  </span>
+                  <span class="material-icons-outlined md-18 fill_star">
+                      star
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                        star_rate
+                  </span>
+                  <span class="material-icons-outlined md-18">
+                          star_rate
+                  </span>
                 </div>
-                <p class="card_rating_numbers">(88)</p>
+                <p class="card_rating_numbers">(128)</p>
               </div>
+              <div class="card_btns">
+                <button
+                class="shop_now"
+                data-id="1"
+                data-title="iPhone 12 128GB"
+                data-image="./image/items-pro/IP/iphone-12-pro.webp"
+                data-price="12.790.000 đ">
+                MUA NGAY
+                </button>
+                <button
+                class="add_to_cart"
+                data-id="1"
+                data-title="iPhone 12 128GB"
+                data-image="./image/items-pro/IP/iphone-12-pro.webp"
+                data-price="12.790.000 đ">
+                <span class="material-icons-outlined">
+                  add_shopping_cart
+                  </span>
+
+              </button>
+            </div>
+
             </div>
           </div>
+
         </div>
         <div class="container_btn">
-          <a href="#" class="container_btn_a">VIEW ALL PRODUCTS</a>
+          <a href="./product_list.html" class="container_btn_a">XEM THÊM</a>
         </div>
       </div>
     </section>
@@ -1747,7 +1504,7 @@
               <p class="gallery_item_p">
                 Mã độc GoldPickaxe nhắm tới người dùng iPhone để lấy cấp thông tin đăng nhập
               </p>
-              <a href="#" class="gallery_item_link">Đọc thêm</a>
+              <a href="./blog.html" class="gallery_item_link">Đọc thêm</a>
             </div>
           </div>
           <div class="gallery_item gallery_item_2">

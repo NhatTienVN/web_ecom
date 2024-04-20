@@ -3,261 +3,223 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- logo -->
+    <LINK REL="SHORTCUT ICON"  HREF="./image/LOGO ONLY-02.png">
     <!-- Chỗ này để tạo hiệu ứng -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="./css/product-list.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- file css -->
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Home - Exclusive E-Commerce Website</title>
+    <link rel="stylesheet" href="./css/product-detail.css">
+
+    <title>iPhone 15 Pro Max 256GB - TECHZONE</title>
   </head>
-<body>
-  <div class="top_nav">
-    <div class="container top_nav_container">
-      <div class="top_nav_wrapper">
-        <p class="tap_nav_p">
-          Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-        </p>
-        <a href="#" class="top_nav_link">SHOP NOW</a>
+  <body>
+    <div class="top_nav">
+      <div class="container top_nav_container">
+        <div class="top_nav_wrapper">
+          <p class="tap_nav_p">
+            <Marquee>SIÊU ƯU ĐÃI THÁNG 4 DUY NHẤT TẠI WEBSITE - GIẢM GIÁ 10%!</Marquee>
+          </p>
+          <a href="#" class="top_nav_link">MUA NGAY</a>
+        </div>
       </div>
     </div>
-  </div>
-  <nav class="nav">
-    <div class="container nav_container">
-      <a href="#" class="nav_logo">EXCLUSIVE</a>
-      <ul class="nav_list">
-        <li class="nav_item"><a href="/" class="nav_link">Home</a></li>
-        <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-        <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
-        <li class="nav_item">
-          <a href="./sign-up.html" class="nav_link">Sign up</a>
+    <nav class="nav">
+      <div class="container nav_container">
+        <a href="./index.html" class="nav_logo">TECHZONE</a>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="/blogs.html" class="nav_link">Bài viết</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Hệ thống cửa hàng</a></li>
+          <li class="nav_item">
+            <a href="/about.html" class="nav_link">Về chúng tôi</a>
+          </li>
+        </ul>
+        <div class="nav_items">
+          <form action="#" class="nav_form">
+            <input
+              type="text"
+              class="nav_input"
+              placeholder="Bạn đang tìm gì?"/>
+              <span class="material-icons-outlined">
+                search
+              </span>
+          </form>
+        <span class="material-icons-outlined nav_heart">
+          favorite_border
+        </span>
+        <a href="/cart.html">
+          <span class="material-icons-outlined nav_cart">
+            shopping_cart
+            </span>
+        </a>
+        <div class="nav_acc">
+          <span class="nav_signup">
+            <a href="./login.html" class="nav_sigup_link">
+              <span class="nav_sigup_link_text">Đăng nhập</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+              login
+              </span>
+            </a>
+          </span>
+
+          <span class="nav_signup_sp">|</span>
+
+          <span class="nav_login">
+            <a href="./sign-up.html" class="nav_login_link">
+              <span class="nav_sigup_link_text">Đăng ký</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+                person_outline
+                </span>
+            </a>
+          </span>
+        </div>
+
+        </div>
+        <span class="hamburger">
+          <span class="material-icons-outlined">
+            menu
+            </span>
+          </svg>
+        </span>
+      </div>
+    </nav>
+    <nav class="mobile_nav mobile_nav_hide">
+      <ul class="mobile_nav_list">
+        <li class="mobile_nav_item">
+          <a href="/" class="mobile_nav_link">Trang chủ</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#" class="mobile_nav_link"></a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#" class="mobile_nav_link">Hệ thống cửa hàng</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="/cart.html" class="mobile_nav_link">Cart</a>
         </li>
       </ul>
-      <div class="nav_items">
-        <form action="#" class="nav_form">
-          <input
-            type="text"
-            class="nav_input"
-            placeholder="search here...." />
-          <img src="./image/search.png" alt="" class="nav_search" />
-        </form>
-        <img src="./image/heart.png" alt="" class="nav_heart" />
-        <a href="/cart.html">
-          <img src="./image/cart.png" alt="" class="nav_cart" />
-        </a>
-      </div>
-      <span class="hamburger">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-6 h-6">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
-      </span>
-    </div>
-  </nav>
-  <nav class="mobile_nav mobile_nav_hide">
-    <ul class="mobile_nav_list">
-      <li class="mobile_nav_item">
-        <a href="/" class="mobile_nav_link">Home</a>
-      </li>
-      <li class="mobile_nav_item">
-        <a href="#" class="mobile_nav_link">About</a>
-      </li>
-      <li class="mobile_nav_item">
-        <a href="#" class="mobile_nav_link">Contact</a>
-      </li>
-      <li class="mobile_nav_item">
-        <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
-      </li>
-      <li class="mobile_nav_item">
-        <a href="/cart.html" class="mobile_nav_link">Cart</a>
-      </li>
-    </ul>
-  </nav>
+    </nav>
 
-  <div class="container">
-    <div class="roadmap">
-      <div class="account">Account</div><i class="fa-solid fa-chevron-right"></i>
-      <div class="nothing">Gaming</div><i class="fa-solid fa-chevron-right"></i>
-      <div class="nothing2">Havic HV G-92 Gamepad</div>
-    </div>
-    
-    <div class="container-pl">
-      <div class="switch-container">
-        <div class="number-input">
-          <div class="switch">
-            <img class="image_sw" src="image0.png" />
-          </div>
-          <div class="switch">
-            <img class="image_sw" src="image1.png" />
-          </div>
-          <div class="switch">
-            <img class="image_sw" src="image2.png" />
-          </div>
-          <div class="switch">
-            <img class="image_sw" src="image3.png" />
-          </div>
-        </div>
-        <div class="switch2">
-          <img class="image5" src="image4.png" />
-        </div>
+    <div class="container">
+      <div class="roadmap">
+        <div class="account">Home</div>
+        <span class="material-icons-outlined">
+          chevron_right
+          </span>
+        <div class="nothing">iphone</div>
+              <span class="material-icons-outlined">
+        chevron_right
+        </span>
+        <div class="nothing2">iPhone 15 Pro Max 256GB</div>
       </div>
-      <div class="vertical-container">
-        <div class="havic-hv-g-92-gamepad">Havic HV G-92 Gamepad</div>
-        <div class="horizontal-container">
-          <div class="rating">
-            <svg
-              class="four-star"
-              width="100"
-              height="20"
-              viewBox="0 0 100 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+      <div class="container-pl">
+        <!-- ảnh bên phải -->
+        <div class="switch-container">
+          <div class="number-input">
+            <div class="switch">
+              <!-- Hình trong file img tên như này luôn -->
+              <img class="image_sw" src="./image/product_deatail/anh1.webp" />
+            </div>
+            <div class="switch">
+              <img class="image_sw" src="./image/product_deatail/anh2.webp" />
+            </div>
+            <div class="switch">
+              <img class="image_sw" src="./image/product_deatail/anh3.webp" />
+            </div>
+            <div class="switch">
+              <img class="image_sw" src="./image/product_deatail/anh4.webp" />
+            </div>
+          </div>
+          <div class="pro_switch_main">
+            <img class="pro_main_img" id="zoomC" src="./image/product_deatail/anh5.jpg" />
+          </div>
+        </div>
+
+        <div class="vertical-container">
+          <div class="havic-hv-g-92-gamepad">
+            iPhone 15 Pro Max 256GB
+          </div>
+          <div class="horizontal-container">
+            <div class="rating">
+              <span class="material-icons-outlined md-18 fill_star">
+                star
+              </span>
+              <span class="material-icons-outlined md-18 fill_star">
+                star
+              </span>
+              <span class="material-icons-outlined md-18 fill_star">
+                star
+              </span>
+              <span class="material-icons-outlined md-18 fill_star">
+                star
+              </span>
+              <span class="material-icons-outlined md-18 fill_star">
+                star
+              </span>
+              <div class="pro_reviews">(150 lượt đánh giá)</div>
+            </div>
+            <div class="horizontal-container2">
+              <div class="slider">|</div>
+              <div class="in-stock">Còn hàng</div>
+            </div>
+          </div>
+          <div class="price-pl">34.990.000VNĐ</div>
+          <div class="price-pl1">29.790.000VNĐ</div>
+          <div class="desc-pl">
+            iPhone 15 Pro Max thiết kế mới với chất liệu titan chuẩn hàng không
+            vũ trụ bền bỉ, trọng lượng nhẹ, đồng thời trang bị nút Action và
+            cổng sạc USB-C tiêu chuẩn giúp nâng cao tốc độ sạc.
+          </div>
+
+          <div class="color">
+            <div class="colours">Màu sắc</div>
+            <div class="colour-chnage">
+
+            </div>
+        </div>
+        <div class="pro_pick">
+            <!-- Pick số lượng -->
+            <div class="buttons_added">
+              <input class="minus is-form" type="button" value="-">
+              <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
+              <input class="plus is-form" type="button" value="+">
+            </div>
+          <div class="card_btns">
+            <button
+              class="shop_now"
+              data-id="1"
+              data-title="HAVIT HV-G92 Gamepad"
+              data-image="./image/items/item-1.png"
+              data-price="120"
             >
-              <path
-                d="M16.673 10.1717C17.7437 9.36184 17.1709 7.65517 15.8284 7.65517H13.3992C12.7853 7.65517 12.243 7.25521 12.0617 6.66868L11.3375 4.32637C10.9309 3.01106 9.0691 3.01106 8.66246 4.32637L7.93832 6.66868C7.75699 7.25521 7.21469 7.65517 6.60078 7.65517H4.12961C2.79142 7.65517 2.21592 9.35274 3.27822 10.1665L5.39469 11.7879C5.85885 12.1435 6.05314 12.7501 5.88196 13.3092L5.11296 15.8207C4.71416 17.1232 6.22167 18.1704 7.30301 17.342L9.14861 15.9281C9.65097 15.5432 10.349 15.5432 10.8514 15.9281L12.6807 17.3295C13.7636 18.159 15.2725 17.1079 14.8696 15.8046L14.09 13.2827C13.9159 12.7198 14.113 12.1081 14.5829 11.7526L16.673 10.1717Z"
-                fill="#FFAD33"
-              />
-              <path
-                d="M36.673 10.1717C37.7437 9.36184 37.1709 7.65517 35.8284 7.65517H33.3992C32.7853 7.65517 32.243 7.25521 32.0617 6.66868L31.3375 4.32637C30.9309 3.01106 29.0691 3.01106 28.6625 4.32637L27.9383 6.66868C27.757 7.25521 27.2147 7.65517 26.6008 7.65517H24.1296C22.7914 7.65517 22.2159 9.35274 23.2782 10.1665L25.3947 11.7879C25.8588 12.1435 26.0531 12.7501 25.882 13.3092L25.113 15.8207C24.7142 17.1232 26.2217 18.1704 27.303 17.342L29.1486 15.9281C29.651 15.5432 30.349 15.5432 30.8514 15.9281L32.6807 17.3295C33.7636 18.159 35.2725 17.1079 34.8696 15.8046L34.09 13.2827C33.9159 12.7198 34.113 12.1081 34.5829 11.7526L36.673 10.1717Z"
-                fill="#FFAD33"
-              />
-              <path
-                d="M56.673 10.1717C57.7437 9.36184 57.1709 7.65517 55.8284 7.65517H53.3992C52.7853 7.65517 52.243 7.25521 52.0617 6.66868L51.3375 4.32637C50.9309 3.01106 49.0691 3.01106 48.6625 4.32637L47.9383 6.66868C47.757 7.25521 47.2147 7.65517 46.6008 7.65517H44.1296C42.7914 7.65517 42.2159 9.35274 43.2782 10.1665L45.3947 11.7879C45.8588 12.1435 46.0531 12.7501 45.882 13.3092L45.113 15.8207C44.7142 17.1232 46.2217 18.1704 47.303 17.342L49.1486 15.9281C49.651 15.5432 50.349 15.5432 50.8514 15.9281L52.6807 17.3295C53.7636 18.159 55.2725 17.1079 54.8696 15.8046L54.09 13.2827C53.9159 12.7198 54.113 12.1081 54.5829 11.7526L56.673 10.1717Z"
-                fill="#FFAD33"
-              />
-              <path
-                d="M76.673 10.1717C77.7437 9.36184 77.1709 7.65517 75.8284 7.65517H73.3992C72.7853 7.65517 72.243 7.25521 72.0617 6.66868L71.3375 4.32637C70.9309 3.01106 69.0691 3.01106 68.6625 4.32637L67.9383 6.66868C67.757 7.25521 67.2147 7.65517 66.6008 7.65517H64.1296C62.7914 7.65517 62.2159 9.35274 63.2782 10.1665L65.3947 11.7879C65.8588 12.1435 66.0531 12.7501 65.882 13.3092L65.113 15.8207C64.7142 17.1232 66.2217 18.1704 67.303 17.342L69.1486 15.9281C69.651 15.5432 70.349 15.5432 70.8514 15.9281L72.6807 17.3295C73.7636 18.159 75.2725 17.1079 74.8696 15.8046L74.09 13.2827C73.9159 12.7198 74.113 12.1081 74.5829 11.7526L76.673 10.1717Z"
-                fill="#FFAD33"
-              />
-              <path
-                opacity="0.25"
-                d="M96.673 10.1717C97.7437 9.36184 97.1709 7.65517 95.8284 7.65517H93.3992C92.7853 7.65517 92.243 7.25521 92.0617 6.66868L91.3375 4.32637C90.9309 3.01106 89.0691 3.01106 88.6625 4.32637L87.9383 6.66868C87.757 7.25521 87.2147 7.65517 86.6008 7.65517H84.1296C82.7914 7.65517 82.2159 9.35274 83.2782 10.1665L85.3947 11.7879C85.8588 12.1435 86.0531 12.7501 85.882 13.3092L85.113 15.8207C84.7142 17.1232 86.2217 18.1704 87.303 17.342L89.1486 15.9281C89.651 15.5432 90.349 15.5432 90.8514 15.9281L92.6807 17.3295C93.7636 18.159 95.2725 17.1079 94.8696 15.8046L94.09 13.2827C93.9159 12.7198 94.113 12.1081 94.5829 11.7526L96.673 10.1717Z"
-                fill="black"
-              />
-            </svg>
-            <div class="_150-reviews">(150 Reviews)</div>
-          </div>
-          <div class="horizontal-container2">
-            <div class="slider"></div>
-            <div class="in-stock">In Stock</div>
-          </div>
-        </div>
-        <div class="price-pl">$192.00</div>
-        <div class="desc-pl">
-          PlayStation 5 Controller Skin High quality vinyl with air channel adhesive
-          for easy bubble free install &amp; mess free removal Pressure sensitive.
-        </div>
-        <svg
-          class="under-line"
-          width="400"
-          height="1"
-          viewBox="0 0 400 1"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g opacity="0.5">
-            <line y1="0.5" x2="400" y2="0.5" stroke="black" />
-          </g>
-        </svg>
-        <div class="color">
-          <div class="colours">Colours:</div>
-          <div class="colour-chnage">
-            <div class="vertical-container2">
-              <div class="slider2"></div>
-              <div class="vertical-container3"></div>
-            </div>
-            <div class="vertical-container4"></div>
-          </div>
-        </div>
-        <div class="segmented-picker">
-          <div class="size">Size:</div>
-          <div class="pagination">
-            <div class="button">
-              <div class="xs">XS</div>
-            </div>
-            <div class="button">
-              <div class="s">S</div>
-            </div>
-            <div class="button2">
-              <div class="m">M</div>
-            </div>
-            <div class="button">
-              <div class="l">L</div>
-            </div>
-            <div class="button">
-              <div class="xl">XL</div>
-            </div>
-          </div>
-        </div>
-        <div class="segmented-picker-size">
-          <div class="number-input2">
-            <div class="checkbox">
-              <svg
-                class="icon-minus"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M20 12H4"
-                  stroke="black"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </div>
-            <div class="slider3">
-              <div class="_2">2</div>
-            </div>
-            <div class="checkbox2">
-              <svg
-                class="icon-plus"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12 20V12M12 12V4M12 12H20M12 12H4"
-                  stroke="white"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="button3">
-            <div class="add-to-cart">Buy Now</div>
-          </div>
-          <div class="button4">
-            <svg
-              class="wishlist"
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              MUA NGAY
+            </button>
+            <button
+              class="add_to_cart"
+              data-id="1"
+              data-title="HAVIT HV-G92 Gamepad"
+              data-image="./image/items/item-1.png"
+              data-price="120"
             >
-              <path
-                d="M11 7C8.239 7 6 9.216 6 11.95C6 14.157 6.875 19.395 15.488 24.69C15.6423 24.7839 15.8194 24.8335 16 24.8335C16.1806 24.8335 16.3577 24.7839 16.512 24.69C25.125 19.395 26 14.157 26 11.95C26 9.216 23.761 7 21 7C18.239 7 16 10 16 10C16 10 13.761 7 11 7Z"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+              <span class="material-icons-outlined"> add_shopping_cart </span>
+            </button>
           </div>
+
         </div>
         <div class="text-input-container">
           <svg
@@ -339,9 +301,9 @@
               </defs>
             </svg>
             <div class="paragraph-container">
-              <div class="free-delivery">Free Delivery</div>
+              <div class="free-delivery">Miễn phí vận chuyển</div>
               <div class="enter-your-postal-code-for-delivery-availability">
-                Enter your postal code for Delivery Availability
+                Nhập mã bưu chính của bạn để biết tình trạng giao hàng
               </div>
             </div>
           </div>
@@ -377,66 +339,118 @@
               </defs>
             </svg>
             <div class="paragraph-container">
-              <div class="return-delivery">Return Delivery</div>
+              <div class="return-delivery">Chính sách đổi trả</div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-  </div>
+    </div>
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer_item">
+          <a href="#" class="footer_logo">TECHZONE</a>
+          <div class="footer_p">
+            Nâng tầm công nghệ, kết nối tương lai
+          </div>
+          <div class="footer_form_wrap">
+            <form class="footer_form">
+              <label for="Hoten">ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI</label>
+              <div class="footer_input">
+                <input class="footer_form_email" type="email" id="footer_email" name="email" placeholder="Nhập email">
+            
+                <input class="footer_form_submit" type="submit" value="Gửi">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Hỗ trợ</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item">Gò Vấp, TP Hồ Chí Minh</li>
+            <li class="li footer_list_item">Email: Techzone@gmail.com</li>
+            <li class="li footer_list_item">Bảo hành: 1900 0000</li>
+            <li class="li footer_list_item">Khiếu nại: 1900 1111</li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Thông tin</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item"><a href="#">Giới thiệu công ty</a></li>
+            <li class="li footer_list_item"><a href="#">Chuỗi cửa hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Phương châm bán hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Tuyển dụng</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Tài khoản</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item"><a href="./cart.html">Giỏ hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Thanh toán</a></li>
+            <li class="li footer_list_item"><a href="#">Yêu thích</a></li>
+            <li class="li footer_list_item"><a href="#">Đăng xuất</a></li>
+          </ul>
+        </div>
 
-
-
-
-  <footer class="footer">
-    <div class="container footer_container">
-      <div class="footer_item">
-        <a href="#" class="footer_logo">Exclusive</a>
-        <div class="footer_p">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Exercitationem fuga harum voluptate?
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Kết nối với chúng tôi</h3>
+          <ul class="footer_list">
+            <li class="footer_down">
+              <div class="footer_header_down">Tải ứng dụng</div>
+            </li>
+            <li class="footer_down">
+              <div class="footer_down_img">
+                <img src="https://freepngimg.com/thumb/apple/58663-app-google-play-store-apple-download-hd-png.png" alt="">
+              </div>
+            </li>
+            <li class="footer_down">
+              <div class="footer_down_icon">
+              <img src="./image/icons/facebook.png" alt="" class="footer_down_img">
+              <img src="./image/icons/icon-instagram.png" alt="" class="footer_down_img">
+              <img src="./image/icons/Icon-Linkedin.png" alt="" class="footer_down_img">
+              <img src="./image/icons/Icon-Twitter.png" alt="" class="footer_down_img">
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="footer_item">
-        <h3 class="footer_item_titl">Support</h3>
-        <ul class="footer_list">
-          <li class="li footer_list_item">Stockholm, Sweden</li>
-          <li class="li footer_list_item">email@gmail.com</li>
-          <li class="li footer_list_item">+46 123 456 78</li>
-          <li class="li footer_list_item">+46 72 345 67</li>
-        </ul>
+      <div class="footer_bottom">
+        <div class="container footer_bottom_container">
+          <p class="footer_copy">
+            Copyright Techzone 2024. All right reserved
+          </p>
+        </div>
       </div>
-      <div class="footer_item">
-        <h3 class="footer_item_titl">Support</h3>
-        <ul class="footer_list">
-          <li class="li footer_list_item">Account</li>
-          <li class="li footer_list_item">Login / Register</li>
-          <li class="li footer_list_item">Cart</li>
-          <li class="li footer_list_item">Shop</li>
-        </ul>
-      </div>
-      <div class="footer_item">
-        <h3 class="footer_item_titl">Support</h3>
-        <ul class="footer_list">
-          <li class="li footer_list_item">Privacy policy</li>
-          <li class="li footer_list_item">Terms of use</li>
-          <li class="li footer_list_item">FAQ's</li>
-          <li class="li footer_list_item">Contact</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer_bottom">
-      <div class="container footer_bottom_container">
-        <p class="footer_copy">
-          Copyright Exclusive 2023. All right reserved
-        </p>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script src="./js/app.js"></script>
-</body>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+
+    <!-- thêm sản phẩm -->
+    <script>
+    //<![CDATA[
+      $('input.input-qty').each(function() {
+        var $this = $(this),
+          qty = $this.parent().find('.is-form'),
+          min = Number($this.attr('min')),
+          max = Number($this.attr('max'))
+        if (min == 0) {
+          var d = 0
+        } else d = min
+        $(qty).on('click', function() {
+          if ($(this).hasClass('minus')) {
+            if (d > min) d += -1
+          } else if ($(this).hasClass('plus')) {
+            var x = Number($this.val()) + 1
+            if (x <= max) d += 1
+          }
+          $this.attr('value', d).val(d)
+        })
+      })
+      //]]></script>
+<!-- zoom -->
+
+
+  </body>
 </html>

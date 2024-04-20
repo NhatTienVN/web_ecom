@@ -3,35 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- logo -->
+    <LINK REL="SHORTCUT ICON"  HREF="./image/LOGO ONLY-02.png">
+    <!-- Chỗ này để tạo hiệu ứng -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <!-- file css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css"/>
     <link rel="stylesheet" href="./css/blog.css">
-    <title>Blog - TECHZONE</title>
+    
+
+    <title>TECHZONE - Nâng tầm công nghệ, kết nối tương lai</title>
   </head>
   <body>
     <div class="top_nav">
       <div class="container top_nav_container">
         <div class="top_nav_wrapper">
           <p class="tap_nav_p">
-            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+            <Marquee>SIÊU ƯU ĐÃI THÁNG 4 DUY NHẤT TẠI WEBSITE - GIẢM GIÁ 10%!</Marquee>
           </p>
-          <a href="#" class="top_nav_link">SHOP NOW</a>
+          <a href="#" class="top_nav_link">MUA NGAY</a>
         </div>
       </div>
     </div>
     <nav class="nav">
       <div class="container nav_container">
-        <a href="#" class="nav_logo">EXCLUSIVE</a>
+        <a href="./index.html" class="nav_logo">TECHZONE</a>
         <ul class="nav_list">
-          <li class="nav_item"><a href="/" class="nav_link">Home</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">Liên</a></li>
+          <li class="nav_item"><a href="/blogs.html" class="nav_link">Bài viết</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Hệ thống cửa hàng</a></li>
           <li class="nav_item">
-            <a href="./sign-up.html" class="nav_link">Sign up</a>
+            <a href="/about.html" class="nav_link">Về chúng tôi</a>
           </li>
         </ul>
         <div class="nav_items">
@@ -39,26 +50,46 @@
             <input
               type="text"
               class="nav_input"
-              placeholder="search here...." />
-            <img src="./image/search.png" alt="" class="nav_search" />
+              placeholder="Bạn đang tìm gì?"/>
+              <span class="material-icons-outlined">
+                search
+              </span>
           </form>
-          <img src="./image/heart.png" alt="" class="nav_heart" />
-          <a href="/cart.html">
-            <img src="./image/cart.png" alt="" class="nav_cart" />
-          </a>
+        <span class="material-icons-outlined nav_heart">
+          favorite_border
+        </span>
+        <a href="/cart.html">
+          <span class="material-icons-outlined nav_cart">
+            shopping_cart
+            </span>
+        </a>
+        <div class="nav_acc">
+          <span class="nav_signup">
+            <a href="./login.html" class="nav_sigup_link">
+              <span class="nav_sigup_link_text">Đăng nhập</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+              login
+              </span>
+            </a>
+          </span>
+
+          <span class="nav_signup_sp">|</span>
+
+          <span class="nav_login">
+            <a href="./sign-up.html" class="nav_login_link">
+              <span class="nav_sigup_link_text">Đăng ký</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+                person_outline
+                </span>
+            </a>
+          </span>
+        </div>
+
         </div>
         <span class="hamburger">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          <span class="material-icons-outlined">
+            menu
+            </span>
           </svg>
         </span>
       </div>
@@ -66,13 +97,13 @@
     <nav class="mobile_nav mobile_nav_hide">
       <ul class="mobile_nav_list">
         <li class="mobile_nav_item">
-          <a href="/" class="mobile_nav_link">Home</a>
+          <a href="/" class="mobile_nav_link">Trang chủ</a>
         </li>
         <li class="mobile_nav_item">
-          <a href="#" class="mobile_nav_link">About</a>
+          <a href="#" class="mobile_nav_link"></a>
         </li>
         <li class="mobile_nav_item">
-          <a href="#" class="mobile_nav_link">Contact</a>
+          <a href="#" class="mobile_nav_link">Hệ thống cửa hàng</a>
         </li>
         <li class="mobile_nav_item">
           <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
@@ -84,89 +115,204 @@
     </nav>
 
 
+    <div class="roadmap container">
+      <div class="account">Home</div>
+      <span class="material-icons-outlined">
+        chevron_right
+        </span>
+      <div class="nothing2">Bài viết</div>
+    </div>
+
     <div class="blog_row container">
-        <div class="blog_leftcolumn">
-          <div class="blog_card">
-            <h2>Mã độc nhắm tới người dùng iPhone Việt nguy hiểm thế nào?</h2>
-            <h5>Mã độc GoldPickaxe nhắm tới người dùng iPhone để lấy cấp thông tin đăng nhập</h5>
-            <div class="blog_fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+      <div class="blog_leftcolumn">
+        <div class="blog_card">
+          <h2 class="blog_card_color">
+            Mã độc nhắm tới người dùng iPhone Việt nguy hiểm thế nào?
+          </h2>
+          <h5 class="blog_card_des">
+            Mã độc GoldPickaxe nhắm tới người dùng iPhone để lấy cấp thông tin
+            đăng nhập
+          </h5>
+          <div class="blog_fakeimg" style="height: 200px">
+            <img src="./image/gallery/ma-doc.png" alt="" />
           </div>
-          <div class="blog_card">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="blog_fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+          <p class="blog_card_form">
+            Loại mã độc này được tùy chỉnh để tấn công người dùng iPhone với khả
+            năng đánh cắp dữ liệu khuôn mặt và rút tiền từ ứng dụng thanh toán.
+          </p>
+          <a href="" class="blog_card_a">Đọc thêm..</a>
+        </div>
+        <div class="blog_card">
+          <h2 class="blog_card_color">
+            Phát triển công cụ AI mới hỗ trợ các bác sĩ
+          </h2>
+          <h5 class="blog_card_des">
+            Saleforce – công ty phần mềm của Mỹ cung cấp các công cụ quản lý
+            quan hệ khách hàng dựa trên điện toán đám mây
+          </h5>
+          <div class="blog_fakeimg" style="height: 200px">
+            <img src="./image/gallery/bac-si-va-ai.png" alt="" />
+          </div>
+
+          <p class="blog_card_form">
+            Salesforce cho biết công cụ Assessment Generation sẽ được ra mắt
+            rộng rãi vào mùa Hè này và công cụ “Einstein Copilot: Health
+            Actions” sẽ sẵn sàng để sử dụng vào cuối năm nay.
+          </p>
+          <a href="" class="blog_card_a">Đọc thêm..</a>
+        </div>
+        <div class="blog_card">
+          <h2 class="blog_card_color">
+            Làm thế nào để phi hành gia "bắt" mạng Wifi trên sao Hỏa?
+          </h2>
+          <h5 class="blog_card_des">
+            Dù chưa thể đặt chân tới sao Hỏa, song những tham vọng của chúng
+            ta...
+          </h5>
+          <div class="blog_fakeimg" style="height: 200px">
+            <img src="./image/gallery/wifi-2.png" alt="" />
+          </div>
+
+          <p class="blog_card_form">
+            Trước cuộc đua mới, sự cạnh tranh xen lẫn hợp tác giữa các quốc gia
+            được kỳ vọng sẽ rút ngắn quá trình đó, thậm chí sớm biến giấc mơ
+            "dạo chơi trên hành tinh Đỏ" của loài người trở thành sự thật.
+          </p>
+          <a href="" class="blog_card_a">Đọc thêm..</a>
+        </div>
+      </div>
+      <div class="blog_rightcolumn">
+        <div class="blog_price_card">
+          <h3 class="blog_write">Sự kiện</h3>
+          <div class="blog_fakeimg" style="height: 100px">
+            <img src="./image/gallery/TECNO Sự kiện.png" alt="" />
+          </div>
+          <p>Sự kiện Tecno Spark 20 Pro Plus ra mắt tại Việt Nam</p>
+        </div>
+        <div class="blog_price_card">
+          <h3 class="blog_write">🔥Bài viết thịnh hành</h3>
+          <div class="blog_fakeimg">Thời của những chiếc ô tô thông minh</div>
+          <div class="blog_fakeimg">
+            Xu hướng hành vi mua hàng trực tuyến của người tiêu dùng Việt Nam
+          </div>
+          <div class="blog_fakeimg">
+            Cách đăng Facebook để có nhiều lượt thích và chia sẻ
           </div>
         </div>
-        <div class="blog_rightcolumn">
-          <div class="blog_card">
-            <h2>About Me</h2>
-            <div class="blog_fakeimg" style="height:100px;">Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-          </div>
-          <div class="blog_card">
-            <h3>Popular Post</h3>
-            <div class="blog_fakeimg">Image</div><br>
-            <div class="blog_fakeimg">Image</div><br>
-            <div class="blog_fakeimg">Image</div>
-          </div>
-          <div class="blog_card">
-            <h3>Follow Me</h3>
-            <p>Some text..</p>
+        <div class="blog_price_card">
+          <h3 class="blog_write">Follow Me</h3>
+
+          <div class="footer_down_icon1">
+            <img
+              src="./image/icons/facebook.png"
+              alt=""
+              class="footer_down_img1"
+            />
+            <img
+              src="./image/icons/icon-instagram.png"
+              alt=""
+              class="footer_down_img1"
+            />
+            <img
+              src="./image/icons/Icon-Linkedin.png"
+              alt=""
+              class="footer_down_img1"
+            />
+            <img
+              src="./image/icons/Icon-Twitter.png"
+              alt=""
+              class="footer_down_img1"
+            />
           </div>
         </div>
       </div>
-      
+    </div>
 
-    <footer class="footer">
+ <footer class="footer">
       <div class="container footer_container">
         <div class="footer_item">
-          <a href="#" class="footer_logo">Exclusive</a>
+          <a href="#" class="footer_logo">TECHZONE</a>
           <div class="footer_p">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Exercitationem fuga harum voluptate?
+            Nâng tầm công nghệ, kết nối tương lai
+          </div>
+          <div class="footer_form_wrap">
+            <form class="footer_form">
+              <label for="Hoten">ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI</label>
+              <div class="footer_input">
+                <input class="footer_form_email" type="email" id="footer_email" name="email" placeholder="Nhập email">
+            
+                <input class="footer_form_submit" type="submit" value="Gửi">
+              </div>
+            </form>
           </div>
         </div>
         <div class="footer_item">
-          <h3 class="footer_item_titl">Support</h3>
+          <h3 class="footer_item_titl">Hỗ trợ</h3>
           <ul class="footer_list">
-            <li class="li footer_list_item">Stockholm, Sweden</li>
-            <li class="li footer_list_item">email@gmail.com</li>
-            <li class="li footer_list_item">+46 123 456 78</li>
-            <li class="li footer_list_item">+46 72 345 67</li>
+            <li class="li footer_list_item">Gò Vấp, TP Hồ Chí Minh</li>
+            <li class="li footer_list_item">Email: Techzone@gmail.com</li>
+            <li class="li footer_list_item">Bảo hành: 1900 0000</li>
+            <li class="li footer_list_item">Khiếu nại: 1900 1111</li>
           </ul>
         </div>
         <div class="footer_item">
-          <h3 class="footer_item_titl">Support</h3>
+          <h3 class="footer_item_titl">Thông tin</h3>
           <ul class="footer_list">
-            <li class="li footer_list_item">Account</li>
-            <li class="li footer_list_item">Login / Register</li>
-            <li class="li footer_list_item">Cart</li>
-            <li class="li footer_list_item">Shop</li>
+            <li class="li footer_list_item"><a href="#">Giới thiệu công ty</a></li>
+            <li class="li footer_list_item"><a href="#">Chuỗi cửa hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Phương châm bán hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Tuyển dụng</a></li>
           </ul>
         </div>
         <div class="footer_item">
-          <h3 class="footer_item_titl">Support</h3>
+          <h3 class="footer_item_titl">Tài khoản</h3>
           <ul class="footer_list">
-            <li class="li footer_list_item">Privacy policy</li>
-            <li class="li footer_list_item">Terms of use</li>
-            <li class="li footer_list_item">FAQ's</li>
-            <li class="li footer_list_item">Contact</li>
+            <li class="li footer_list_item"><a href="./cart.html">Giỏ hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Thanh toán</a></li>
+            <li class="li footer_list_item"><a href="#">Yêu thích</a></li>
+            <li class="li footer_list_item"><a href="#">Đăng xuất</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Kết nối với chúng tôi</h3>
+          <ul class="footer_list">
+            <li class="footer_down">
+              <div class="footer_header_down">Tải ứng dụng</div>
+            </li>
+            <li class="footer_down">
+              <div class="footer_down_img">
+                <img src="https://freepngimg.com/thumb/apple/58663-app-google-play-store-apple-download-hd-png.png" alt="">
+              </div>
+            </li>
+            <li class="footer_down">
+              <div class="footer_down_icon">
+              <img src="./image/icons/facebook.png" alt="" class="footer_down_img">
+              <img src="./image/icons/icon-instagram.png" alt="" class="footer_down_img">
+              <img src="./image/icons/Icon-Linkedin.png" alt="" class="footer_down_img">
+              <img src="./image/icons/Icon-Twitter.png" alt="" class="footer_down_img">
+              </div>
+            </li>
           </ul>
         </div>
       </div>
       <div class="footer_bottom">
         <div class="container footer_bottom_container">
           <p class="footer_copy">
-            Copyright Exclusive 2023. All right reserved
+            Copyright Techzone 2024. All right reserved
           </p>
         </div>
       </div>
     </footer>
-
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons-outlined">
+      expand_less
+      </span></button>
+    <div class="btncall">
+      <img src="./image/brand/zalo-logo.png" alt="">
+    </div>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>

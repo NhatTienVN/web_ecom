@@ -173,3 +173,219 @@ https://developers.google.com/fonts/docs/material_symbols?hl=vi#use_in_web
 
 
 
+
+header
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- logo -->
+    <LINK REL="SHORTCUT ICON"  HREF="./image/LOGO ONLY-02.png">
+    <!-- Chỗ này để tạo hiệu ứng -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <!-- file css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/blog.css">
+
+    <title>Hướng dẫn mua gói YouTube Premium gia đình giá rẻ - TECHZONE</title>
+  </head>
+  <body>
+    <div class="top_nav">
+      <div class="container top_nav_container">
+        <div class="top_nav_wrapper">
+          <p class="tap_nav_p">
+            <Marquee>SIÊU ƯU ĐÃI THÁNG 4 DUY NHẤT TẠI WEBSITE - GIẢM GIÁ 10%!</Marquee>
+          </p>
+          <a href="#" class="top_nav_link">MUA NGAY</a>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="container nav_container">
+        <a href="#" class="nav_logo">TECHZONE</a>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="/blogs.html" class="nav_link">Bài viết</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Hệ thống cửa hàng</a></li>
+          <li class="nav_item">
+            <a href="/about.html" class="nav_link">Về chúng tôi</a>
+          </li>
+        </ul>
+        <div class="nav_items">
+          <form action="#" class="nav_form">
+            <input
+              type="text"
+              class="nav_input"
+              placeholder="Bạn đang tìm gì?"/>
+              <span class="material-icons-outlined">
+                search
+              </span>
+          </form>
+        <span class="material-icons-outlined nav_heart">
+          favorite_border
+        </span>
+        <a href="/cart.html">
+          <span class="material-icons-outlined nav_cart">
+            shopping_cart
+            </span>
+        </a>
+        <div class="nav_acc">
+          <span class="nav_signup">
+            <a href="./login.html" class="nav_sigup_link">
+              <span class="nav_sigup_link_text">Đăng nhập</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+              login
+              </span>
+            </a>
+          </span>
+
+          <span class="nav_signup_sp">|</span>
+
+          <span class="nav_login">
+            <a href="./sign-up.html" class="nav_login_link">
+              <span class="nav_sigup_link_text">Đăng ký</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+                person_outline
+                </span>
+            </a>
+          </span>
+        </div>
+
+        </div>
+        <span class="hamburger">
+          <span class="material-icons-outlined">
+            menu
+            </span>
+          </svg>
+        </span>
+      </div>
+    </nav>
+    <nav class="mobile_nav mobile_nav_hide">
+      <ul class="mobile_nav_list">
+        <li class="mobile_nav_item">
+          <a href="/" class="mobile_nav_link">Trang chủ</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#" class="mobile_nav_link"></a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#" class="mobile_nav_link">Hệ thống cửa hàng</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="/cart.html" class="mobile_nav_link">Cart</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+footer
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer_item">
+          <a href="#" class="footer_logo">TECHZONE</a>
+          <div class="footer_p">
+            Nâng tầm công nghệ, kết nối tương lai
+          </div>
+          <div class="footer_form_wrap">
+            <form class="footer_form">
+              <label for="Hoten">ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI</label>
+              <div class="footer_input">
+                <input class="footer_form_email" type="email" id="footer_email" name="email" placeholder="Nhập email">
+            
+                <input class="footer_form_submit" type="submit" value="Gửi">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Hỗ trợ</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item">Gò Vấp, TP Hồ Chí Minh</li>
+            <li class="li footer_list_item">Email: Techzone@gmail.com</li>
+            <li class="li footer_list_item">Bảo hành: 1900 0000</li>
+            <li class="li footer_list_item">Khiếu nại: 1900 1111</li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Thông tin</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item"><a href="#">Giới thiệu công ty</a></li>
+            <li class="li footer_list_item"><a href="#">Chuỗi cửa hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Phương châm bán hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Tuyển dụng</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Tài khoản</h3>
+          <ul class="footer_list">
+            <li class="li footer_list_item"><a href="./cart.html">Giỏ hàng</a></li>
+            <li class="li footer_list_item"><a href="#">Thanh toán</a></li>
+            <li class="li footer_list_item"><a href="#">Yêu thích</a></li>
+            <li class="li footer_list_item"><a href="#">Đăng xuất</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_item">
+          <h3 class="footer_item_titl">Kết nối với chúng tôi</h3>
+          <ul class="footer_list">
+            <li class="footer_down">
+              <div class="footer_header_down">Tải ứng dụng</div>
+            </li>
+            <li class="footer_down">
+              <div class="footer_down_img">
+                <img src="https://freepngimg.com/thumb/apple/58663-app-google-play-store-apple-download-hd-png.png" alt="">
+              </div>
+            </li>
+            <li class="footer_down">
+              <div class="footer_down_icon">
+              <img src="./image/icons/facebook.png" alt="" class="footer_down_img">
+              <img src="./image/icons/icon-instagram.png" alt="" class="footer_down_img">
+              <img src="./image/icons/Icon-Linkedin.png" alt="" class="footer_down_img">
+              <img src="./image/icons/Icon-Twitter.png" alt="" class="footer_down_img">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container footer_bottom_container">
+          <p class="footer_copy">
+            Copyright Techzone 2024. All right reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 1070px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+  
+}

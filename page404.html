@@ -1,38 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- logo -->
+    <LINK REL="SHORTCUT ICON"  HREF="./image/LOGO ONLY-02.png">
     <!-- Chỗ này để tạo hiệu ứng -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="./css/product-list.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <!-- file css -->
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css" />
 
-    <title>Home - Exclusive E-Commerce Website</title>
 
+    <title>Không tìm thấy trang</title>
   </head>
   <body>
     <div class="top_nav">
       <div class="container top_nav_container">
         <div class="top_nav_wrapper">
           <p class="tap_nav_p">
-            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+            <Marquee>SIÊU ƯU ĐÃI THÁNG 4 DUY NHẤT TẠI WEBSITE - GIẢM GIÁ 10%!</Marquee>
           </p>
-          <a href="#" class="top_nav_link">SHOP NOW</a>
+          <a href="#" class="top_nav_link">MUA NGAY</a>
         </div>
       </div>
     </div>
     <nav class="nav">
       <div class="container nav_container">
-        <a href="#" class="nav_logo">EXCLUSIVE</a>
+        <a href="./index.html" class="nav_logo">TECHZONE</a>
         <ul class="nav_list">
-          <li class="nav_item"><a href="/" class="nav_link">Home</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-          <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+          <li class="nav_item"><a href="/blogs.html" class="nav_link">Bài viết</a></li>
+          <li class="nav_item"><a href="#" class="nav_link">Hệ thống cửa hàng</a></li>
           <li class="nav_item">
-            <a href="./sign-up.html" class="nav_link">Sign up</a>
+            <a href="/about.html" class="nav_link">Về chúng tôi</a>
           </li>
         </ul>
         <div class="nav_items">
@@ -40,26 +50,46 @@
             <input
               type="text"
               class="nav_input"
-              placeholder="search here...." />
-            <img src="./image/search.png" alt="" class="nav_search" />
+              placeholder="Bạn đang tìm gì?"/>
+              <span class="material-icons-outlined">
+                search
+              </span>
           </form>
-          <img src="./image/heart.png" alt="" class="nav_heart" />
-          <a href="/cart.html">
-            <img src="./image/cart.png" alt="" class="nav_cart" />
-          </a>
+        <span class="material-icons-outlined nav_heart">
+          favorite_border
+        </span>
+        <a href="/cart.html">
+          <span class="material-icons-outlined nav_cart">
+            shopping_cart
+            </span>
+        </a>
+        <div class="nav_acc">
+          <span class="nav_signup">
+            <a href="./login.html" class="nav_sigup_link">
+              <span class="nav_sigup_link_text">Đăng nhập</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+              login
+              </span>
+            </a>
+          </span>
+
+          <span class="nav_signup_sp">|</span>
+
+          <span class="nav_login">
+            <a href="./sign-up.html" class="nav_login_link">
+              <span class="nav_sigup_link_text">Đăng ký</span>
+              <span class="material-icons-outlined nav_sigup_link_icon">
+                person_outline
+                </span>
+            </a>
+          </span>
+        </div>
+
         </div>
         <span class="hamburger">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          <span class="material-icons-outlined">
+            menu
+            </span>
           </svg>
         </span>
       </div>
@@ -67,13 +97,13 @@
     <nav class="mobile_nav mobile_nav_hide">
       <ul class="mobile_nav_list">
         <li class="mobile_nav_item">
-          <a href="/" class="mobile_nav_link">Home</a>
+          <a href="/" class="mobile_nav_link">Trang chủ</a>
         </li>
         <li class="mobile_nav_item">
-          <a href="#" class="mobile_nav_link">About</a>
+          <a href="#" class="mobile_nav_link"></a>
         </li>
         <li class="mobile_nav_item">
-          <a href="#" class="mobile_nav_link">Contact</a>
+          <a href="#" class="mobile_nav_link">Hệ thống cửa hàng</a>
         </li>
         <li class="mobile_nav_item">
           <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
@@ -83,8 +113,6 @@
         </li>
       </ul>
     </nav>
-
-
       <div class="container">
         <div class="roadmap">
           <div class="account">Home</div><i class="fa-solid fa-chevron-right"></i>
@@ -100,55 +128,22 @@
       </div>
 
 
-    <footer class="footer">
-      <div class="container footer_container">
-        <div class="footer_item">
-          <a href="#" class="footer_logo">Exclusive</a>
-          <div class="footer_p">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Exercitationem fuga harum voluptate?
+      <footer class="footer">
+
+        <div class="footer_bottom">
+          <div class="container footer_bottom_container">
+            <p class="footer_copy">
+              Copyright Techzone 2024. All right reserved
+            </p>
           </div>
         </div>
-        <div class="footer_item">
-          <h3 class="footer_item_titl">Support</h3>
-          <ul class="footer_list">
-            <li class="li footer_list_item">Stockholm, Sweden</li>
-            <li class="li footer_list_item">email@gmail.com</li>
-            <li class="li footer_list_item">+46 123 456 78</li>
-            <li class="li footer_list_item">+46 72 345 67</li>
-          </ul>
-        </div>
-        <div class="footer_item">
-          <h3 class="footer_item_titl">Support</h3>
-          <ul class="footer_list">
-            <li class="li footer_list_item">Account</li>
-            <li class="li footer_list_item">Login / Register</li>
-            <li class="li footer_list_item">Cart</li>
-            <li class="li footer_list_item">Shop</li>
-          </ul>
-        </div>
-        <div class="footer_item">
-          <h3 class="footer_item_titl">Support</h3>
-          <ul class="footer_list">
-            <li class="li footer_list_item">Privacy policy</li>
-            <li class="li footer_list_item">Terms of use</li>
-            <li class="li footer_list_item">FAQ's</li>
-            <li class="li footer_list_item">Contact</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer_bottom">
-        <div class="container footer_bottom_container">
-          <p class="footer_copy">
-            Copyright Exclusive 2023. All right reserved
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/login_singup.js"></script>
+      </footer>
+  
+  
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="./js/app.js"></script>
+      <script src="./js/login_singup.js"></script>
+  
   </body>
 </html>

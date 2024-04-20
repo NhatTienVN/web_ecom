@@ -50,6 +50,7 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
 // mới thêm vào
 var swiperhero = new Swiper(".mySwiper-hero", {
   navigation: {
@@ -60,8 +61,6 @@ var swiperhero = new Swiper(".mySwiper-hero", {
 
 
 // Animations
-
-
 
 ScrollReveal().reveal(".top_nav", {
   origin: "bottom",
@@ -103,8 +102,6 @@ const Nav = document.querySelector(".mobile_nav");
 hamburger.addEventListener("click", () => {
   Nav.classList.toggle("mobile_nav_hide");
 });
-
-
 
 // const AddToCart = document.querySelectorAll(".add_to_cart");
 
@@ -174,4 +171,11 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+
+function openNewPage() {
+  // Thay đổi URL của trình duyệt để mở trang khác
+  window.location.href = './product_detail.html';
 }
